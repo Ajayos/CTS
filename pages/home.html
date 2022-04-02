@@ -8,15 +8,67 @@
     <meta name="description" content="homepage" />
     <meta name="author" content="Ajay o s" />
     <link href="Ajay.jpg" rel="icon" />
-    <link href="https://indrijunanda.github.io/RuangAdmin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://indrijunanda.github.io/RuangAdmin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://indrijunanda.github.io/RuangAdmin/css/ruang-admin.min.css" rel="stylesheet" />
+    <link href="/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/admin.min.css" rel="stylesheet" />
     <meta property="og:title" content="MY PERSON WEBPAGE " />
-    <meta property="og:description" content="KYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
+    <meta property="og:description" content="MY PERSON WEBPAGE" />
     <meta property="og:image" content="Ajay.jpg" />
     <meta property="og:url" content="index.html" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/androidstudio.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <style>
+      .hljs {
+        color:#a9b7c6;
+        background:#282b2e;
+        display:block;
+        overflow-x:auto;
+        padding:0.5em
+      }
+      .hljs-number,
+      .hljs-literal,
+      .hljs-symbol,
+      .hljs-bullet {
+        color:#6897BB
+      }
+      .hljs-keyword,
+      .hljs-selector-tag,
+      .hljs-deletion {
+        color:#cc7832
+      }
+      .hljs-variable,
+      .hljs-template-variable,
+      .hljs-link {
+        color:#629755
+      }
+      .hljs-comment,
+      .hljs-quote {
+        color:#808080
+      }
+      .hljs-meta {
+        color:#bbb529
+      }
+      .hljs-string,
+      .hljs-attribute,
+      .hljs-addition {
+        color:#6A8759
+      }
+      .hljs-section,
+      .hljs-title,
+      .hljs-type {
+        color:#ffc66d
+      }
+      .hljs-name,
+      .hljs-selector-id,
+      .hljs-selector-class {
+        color:#e8bf6a
+      }
+      .hljs-emphasis {
+        font-style:italic
+      }
+      .hljs-strong {
+        font-weight:bold
+      }
+      </style>0
+    <script src="/js/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
   </head>
 
@@ -268,30 +320,11 @@
           <div id="demo" class="alert alert-dark alert-dismissible" role="alert">
             <div id="browser_info"></div>
             <script>
-              let arrBulan = [
-                "Januari",
-                "Februari",
-                "Maret",
-                "April",
-                "Mei",
-                "Juni",
-                "Juli",
-                "Agustus",
-                "September",
-                "Oktober",
-                "November",
-                "Desember",
-              ];
-              let txt = "";
-              txt +=
-                "<p><b>Browser CodeName</b>: " +
-                navigator.appCodeName +
-                "</p>";
+              let arrBulan = [ "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+              let txt = ""; 
+              txt += "<p><b>Browser CodeName</b>: " + navigator.appCodeName + "</p>";
               txt += "<p><b>Browser Name</b>: " + navigator.appName + "</p>";
-              txt +=
-                "<p><b>Cookies Enabled</b>: " +
-                navigator.cookieEnabled +
-                "</p>";
+              txt += "<p><b>Cookies Enabled</b>: " + navigator.cookieEnabled + "</p>";
               txt += "<p><b>Browser Online</b>: " + navigator.onLine + "</p>";
               txt += "<p><b>Platform</b>: " + navigator.platform + "</p>";
               txt += "<p><b>User-agent</b>: " + navigator.userAgent + "</p>";
@@ -305,21 +338,7 @@
                 const bln = d.getMonth();
                 const thn = d.getFullYear();
                 const bulan = arrBulan[bln];
-                text_el.innerHTML =
-                  txt +
-                  "<b>Date</b>: " +
-                  jam +
-                  ":" +
-                  menit +
-                  ":" +
-                  detik +
-                  "~" +
-                  tgl +
-                  "-" +
-                  bulan +
-                  "-" +
-                  thn +
-                  "<br>Welcome back!";
+                text_el.innerHTML = txt + "<b>Date</b>: " + jam + ":" + menit + ":" + detik + "~" + tgl + "-" + bulan + "-" + thn + "<br>Welcome back!";
               }, 250);
             </script>
           </div>
@@ -327,9 +346,8 @@
 <div class="col-xl-12 col-lg-12 col-md-12">
 <div class="card">
 <div class="card-header">
-<h4 class="card-title">Made with ❤️ by <a href="https://github.com/Arya-was" target="_blank">AJAY O S</a></h4>
+<h4 class="card-title">Made with ❤️ by <a href="https://github.com/Ajay-o-starget="_blank">AJAY O S</a></h4>
 </div>
-<div class="card-body text-sm-left font-weight-bold">Jangan di Bully mastah, Saya cuma gabut bikin Api monggo di pakai btw source code nya di <a href="https://github.com/Arya-was/simple-api" target="_blank">Sini</a> yak</div>
 </div>
 </div>
 </div>
@@ -341,8 +359,7 @@
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  <b><a href="https://github.com/Ajay-o-s
-                      target="_blank">AJAY O S</a></b>
+                  <b><a href="https://github.com/Ajay-o-s" target="_blank">AJAY O S</a></b>
                 </span>
               </div>
             </div>
