@@ -7,8 +7,8 @@
     "web": "nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeplay": "npm run web",
-    "deploy": "gh-pages -d web"
+    "predeplay": "npm run start",
+    "deploy": "gh-pages -d start"
   },
   "repository": {
     "type": "git",
