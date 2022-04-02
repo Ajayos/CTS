@@ -1,6 +1,6 @@
 {
   "name": "server",
-  "version": "1.0.0",
+  "version": "8.2.5",
   "description": "my persanol webpage",
   "main": "index.js",
   "scripts": {
