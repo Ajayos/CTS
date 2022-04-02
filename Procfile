@@ -1,2 +1,2 @@
-web: node index.js
-start: node chat/backend/server.js
+web: node js/index.js
+start: nodemon js/index.js
