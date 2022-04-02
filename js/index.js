@@ -28,8 +28,10 @@ __path = process.cwd()
 
 
 var home = require('./home.js');
+var bot = require('./bot.js');
+//var gmgn = require(__path + '/tools/bin/')
 
+
+app.use('/bot', bot)
 app.use('/', home)
-
-
 app.listen(PORT, () => {console.log(`Server Run on port ${PORT}`)});

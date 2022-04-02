@@ -4,7 +4,6 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', async(req, res) => {res.sendFile(__path + '/pages/index.html')})
-router.get('/home', async(req, res) => {res.sendFile(__path + '/pages/home.html')})
 
 // sendFile
 // css
