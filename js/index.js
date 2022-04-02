@@ -1,6 +1,5 @@
 const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
-const secure = require('ssl-express-www')
 const PORT = process.env.PORT || 8080;
 const morgan = require('morgan');
 const multer = require('multer');
