@@ -20,9 +20,9 @@ router.get('/', async(req, res) => {
 
 
 	res.json({
-		welc_1: wel_1,
-        welc_private: wel_2,
-        welc_public: wel_3
+		welc_1: welcm_1[wel_1],
+        welc_private: welcm_2[wel_2],
+        welc_public: welcm_3[wel_3]
 	});
 });
 
