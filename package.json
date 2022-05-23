@@ -6,10 +6,10 @@
   "scripts": {
     "web": "nodemon js/index.js",
     "start": "node js/index.js",
-    "build": "npm i",
+    "build": "npm js/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeplay": "npm run build",
-    "deploy": "gh-pages -d start"
+    "predeplay": "npm i",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
