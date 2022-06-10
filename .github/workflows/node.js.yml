@@ -20,9 +20,9 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: ajay-o-s/server@v1
+    - uses: ajay-o-s/server@V1
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: ajay-o-s/server@v1
+      uses: ajay-o-s/server@V1
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
