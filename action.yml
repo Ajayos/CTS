@@ -11,4 +11,4 @@ outputs:
 icon: 'at-sign'
 runs:
   using: 'node16'
-  main: 'js/index.js'
+  main: 'index.js'
