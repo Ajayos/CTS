@@ -19,13 +19,17 @@
 - 👨‍💻 Currently, I'm doing diploma in computer engineering at GPTC Perumbavoor, Kerala😜. 
 - 👨‍💻 I love coding 😍😉
 - 👨‍💻 I'm working as an Open Source Software Developer.😁 
-- 👨‍💻 All of my projects are available at **[repositories](https://github.com/Ajay-o-s?tab=repositories)**
+- 👨‍💻 All of my Open Source projects are available at **[repositories](https://github.com/Ajay-o-s?tab=repositories)**
 - 👨‍💻 🆓 Don't Forget To **[Follow Me](https://github.com/Ajay-o-s)**
 
    [![👨follower](https://custom-icon-badges.herokuapp.com/github/followers/Ajay-o-s?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white)](https://github.com/Ajay-o-s?tab=followers)
 
 ---
 
+![GitHub Snake Light](github-snake.svg#gh-light-mode-only)
+![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
+
+---
 # **🌐 Socials**
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_ajay_o_s_)
