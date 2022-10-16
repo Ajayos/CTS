@@ -1,2 +1,1 @@
-web: node js/index.js
-start: nodemon js/index.js
+start: cd Backend && npm start
