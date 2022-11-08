@@ -1,4 +1,4 @@
-__path = process.cwd()
+const __path = process.cwd()
 
 var express = require('express');
 var router = express.Router();
