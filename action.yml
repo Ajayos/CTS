@@ -1,4 +1,4 @@
-name: 'ajay-o-s/server'
+name: 'Ajayos/server'
 description: 'Greet someone and record the time'
 inputs:
   who-to-greet:  # id of input

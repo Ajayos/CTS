@@ -1,7 +1,7 @@
 /**
  * Code by Ajay o s
- * https://github.com/Ajay-o-s
- * https://github.com/Ajay-o-s/Ajay-o-s
+ * https://github.com/Ajayos
+ * https://github.com/Ajayos/Ajayos
  * 
  */
 

@@ -22,13 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ajay-o-s/Ajay-o-s.git"
+    "url": "git+https://github.com/Ajayos/Ajayos.git"
   },
   "keywords": [
     "Ajay"
   ],
   "bugs": {
-    "url": "https://github.com/Ajay-o-s/Ajay-o-s/issues"
+    "url": "https://github.com/Ajayos/Ajayos/issues"
   },
-  "homepage": "https://github.com/Ajay-o-s/Ajay-o-s#readme"
+  "homepage": "https://github.com/Ajayos/Ajayos#readme"
 }
