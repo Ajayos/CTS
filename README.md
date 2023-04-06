@@ -69,7 +69,7 @@
 ### Programming Languange 💻
 
 
-| Languange    |         |
+|    |         |
 | ------------- | -------------------------------------------------------------------- |
 | JavaScript    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/javascript.png"> |
 | TypeScript    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/typescript.png"> |
