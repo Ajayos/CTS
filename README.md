@@ -78,7 +78,7 @@
 | CSS           | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/css.png"> |
 | PHP           | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/php.png"> |
 | C++           | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/cpp.png"> |
-| C             | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/c.png"> |
+| C             | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/SVG/c.svg"> |
 | Python        | <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> |
 | Bash          | <img width="30px" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"> |
 | Rust          | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/rust/rust.png"> |
@@ -97,53 +97,70 @@
 
 ### Databases
 
-<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />
-<img align="left" alt="Firebase" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/firebase/firebase.png" />
-<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/mongodb/mongodb.png" />
-<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/mongoose/mongoose.png" />
-<img align="left" alt="PostgreSQL" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/postgresql/postgresql.png" />
-<br>
+
+|  | |
+| ------------- | -------------------------------------------------------------------- |
+| SQL    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/sql.png"> |
+| MySQL    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/mysql.png"> |
+| Firebase    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/firebase.png"> |
+| MongoDB    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/mongodb.png"> |
+| Mongoose    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/mongoose.png"> |
+| PostgreSQL    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/postgresql.png"> |
+| MariaDB    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/mariadb.png"> |
+| PSQLite    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/sqlite.png"> |
 
 ---
 ### Frameworks
 
-<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-<img align="left" alt="Express JS" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/express/express.png" />
-<img align="left" alt="React Native" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/react-native/react-native.png" />
-<img align="left" alt="Bootstrap" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/bootstrap/bootstrap.png" />
-<img align="left" alt="Tailwindcss" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png" />
-<img align="left" alt="Jquery" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/jquery/jquery.png" />
-<img align="left" alt="NextJS" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/nextjs/nextjs.png" />
-<br>
+|  | |
+| ------------- | -------------------------------------------------------------------- |
+| React    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/react.png"> |
+| React Native   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/react-native.png"> |
+| Express JS   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/express.png"> |
+| Node.js   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/nodejs.png"> |
+| Bootstrap   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/bootstrap.png"> |
+| Tailwindcss  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/tailwind.png"> |
+| Jquery   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/jquery.png"> |
+| NextJS   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/nextjs.png"> |
+
 
 ---
 
 ### Tools and OS ⚒
 
-<img align="left" alt="Linux" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/linux/linux.png" />
-<img align="left" alt="windows" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/windows/windows.png" />
-<img align="left" alt="ubuntu" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/ubuntu/ubuntu.png" />
-<img align="left" alt="android" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/android/android.png" />
-<br>
+|  | |
+| ------------- | -------------------------------------------------------------------- |
+| Linux    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/linux.png"> |
+| windows 11   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/windows-11.png"> |
+| windows 10   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/windows-10.png"> |
+| Ubuntu   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/ubuntu.png"> |
+| Android   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/android.png"> |
+| Raspberry PI  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/raspberry-pi.png"> |
+| Linux Mint  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/linux-mint.png"> |
+| Debian  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/debian.png"> |
 
 ---
 
-### bash
+### Tools/bash
 
-<img align="left" alt="terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/terminal/terminal.png" />
-<img align="left" alt="termux" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/termux/termux.png" />
-<img align="left" alt="bash" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png" />
-<img align="left" alt="bash" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/git/git.png" />
-<img align="left" alt="Cli" width="26px" src="https://raw.githubusercontent.com/github/explore/master/topics/cli/cli.png" />
+|  | |
+| ------------- | -------------------------------------------------------------------- |
+| Terminal    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/terminal.png"> |
+| Termux   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/termux.png"> |
+| CMD   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/cmd1.png"> |
+| Git   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/git.png"> |
+| Powershell   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/powershell.png"> |
+
 <br>
 
 ---
 
 ### Microcontroller ⚙
 
-<img align="left" alt="Arduino" width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/arduino/arduino.png" />
-<img align="left" alt="Raspberry PI" width="30px" src="https://raw.githubusercontent.com/github/explore/main/topics/raspberry-pi/raspberry-pi.png" />
-<br>
+|  | |
+| ------------- | -------------------------------------------------------------------- |
+| Arduino    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/arduino.png"> |
+| Raspberry PI  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/raspberry-pi.png"> |
 
 ---
 
