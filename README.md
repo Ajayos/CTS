@@ -34,14 +34,14 @@
 # **🌐 Socials**
 | Platform	    |            Logo             | URL                       |
 | ------------- | --------------------------- | ------------------------- |
-| Instagram     |  logo                       | [`_ajay_o_s_`](https://instagram.com/_ajay_o_s_) |
-| WHATSAPP     |  logo                       | [`Ajayos`](https://api.whatsapp.com/send?phone=919188346721&text=%20Hi%20I%20Am%20From%20Github%20💖) |
-| TELEGRAM     |  logo                       | [`_ajay_o_s_`](https://t.me/_ajay_o_s_) |
-| GMAIL     |  logo                       | [`ajayosakhub@gmail.com`](mailto:ajayosakhub@gmail.com?subject=[%20FROM%20GITHUB%20) |
-| Twitter     |  logo                       | [`_ajay_o_s_`](https://twitter.com/_ajay_o_s_) |
-| GITHUB     |  logo                       | [`Ajayos`](https://github.com/Ajayos) |
-| Replit     |  logo                       | [`@Ajay-o-s`](https://replit.com/@Ajay-o-s/) |
-| linkedin     |  logo                       | [`ajay-o-s`](https://www.linkedin.com/in/ajay-o-s/) |
+| GITHUB        |    <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/github-api.png">                     | [`Ajayos`](https://github.com/Ajayos) |
+| Instagram     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/instagram.png">                       | [`_ajay_o_s_`](https://instagram.com/_ajay_o_s_) |
+| WHATSAPP     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/bwhatsapp.png">                       | [`Ajayos`](https://api.whatsapp.com/send?phone=919188346721&text=%20Hi%20I%20Am%20From%20Github%20💖) |
+| TELEGRAM     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/telegram.png">                      | [`_ajay_o_s_`](https://t.me/_ajay_o_s_) |
+| GMAIL     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/gmail.png">                       | [`ajayosakhub@gmail.com`](mailto:ajayosakhub@gmail.com?subject=[%20FROM%20GITHUB%20) |
+| Twitter     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/twitter.png">                       | [`_ajay_o_s_`](https://twitter.com/_ajay_o_s_) |
+| Replit     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/replit.png">                       | [`@Ajay-o-s`](https://replit.com/@Ajay-o-s/) |
+| linkedin     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/linkedin.png">                       | [`ajay-o-s`](https://www.linkedin.com/in/ajay-o-s/) |
 
 
 ---
@@ -69,7 +69,7 @@
 ### Programming Languange 💻
 
 
-| Technology    | Logo                                                                 |
+| Languange    |         |
 | ------------- | -------------------------------------------------------------------- |
 | JavaScript    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/javascript.png"> |
 | TypeScript    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/typescript.png"> |
@@ -98,7 +98,7 @@
 ### Databases
 
 
-|  | |
+| Databases  | |
 | ------------- | -------------------------------------------------------------------- |
 | SQL    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/sql.png"> |
 | MySQL    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/mysql.png"> |
@@ -112,7 +112,7 @@
 ---
 ### Frameworks
 
-|  | |
+| Frameworks | |
 | ------------- | -------------------------------------------------------------------- |
 | React    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/react.png"> |
 | React Native   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/react-native.png"> |
@@ -128,7 +128,7 @@
 
 ### Tools and OS ⚒
 
-|  | |
+| Tools and OS ⚒ | |
 | ------------- | -------------------------------------------------------------------- |
 | Linux    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/linux.png"> |
 | windows 11   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/windows-11.png"> |
@@ -143,7 +143,7 @@
 
 ### Tools/bash
 
-|  | |
+| Tools/bash | |
 | ------------- | -------------------------------------------------------------------- |
 | Terminal    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/terminal.png"> |
 | Termux   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/termux.png"> |
@@ -151,13 +151,11 @@
 | Git   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/git.png"> |
 | Powershell   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/powershell.png"> |
 
-<br>
-
 ---
 
 ### Microcontroller ⚙
 
-|  | |
+| Microcontroller ⚙ | |
 | ------------- | -------------------------------------------------------------------- |
 | Arduino    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/arduino.png"> |
 | Raspberry PI  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/raspberry-pi.png"> |
@@ -166,18 +164,34 @@
 
 ### Text Editor 
 
-<img align="left" alt="Vscode" width="30px" src="https://raw.githubusercontent.com/github/explore/main/topics/visual-studio-code/visual-studio-code.png" />
-<img align="left" alt="Vscode" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Visual_Studio_Icon_2019.svg" />
-<img align="left" alt="Vim" width="30px" src="https://raw.githubusercontent.com/github/explore/main/topics/vim/vim.png" />
-<img align="left" alt="Androidstudio" width="30px" src="https://raw.githubusercontent.com/github/explore/main/topics/android-studio/android-studio.png" />
-<br>
+| Text Editor | |
+| ------------- | -------------------------------------------------------------------- |
+| Visual Studio Code    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/vscode.png"> |
+| Visual Studio  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/vss.png"> |
+| Codespace  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/codespace.png"> |
+| vs code remote  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/codespace.png"> |
+| Vim  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/vim.png"> |
+| Android Studio  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/androidstudio.png"> |
+| Notepad  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/notepad.png"> |
+| Notepad ++  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/notepadpp.png"> |
+| Gedit  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/gedit.png"> |
+| Nano  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/nano.png"> |
 
 ---
 
 ### Hosting
 
-[![GITHUB](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/) [![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://www.heroku.com/) [![Railway](https://img.shields.io/badge/railway-000005?style=for-the-badge&logo=railway&logoColor=white)](https://http://railway.app/)  [![Replit](https://img.shields.io/badge/replit-000008?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/@Ajayos/) [![Travis](https://img.shields.io/badge/travis%20ci-994010?style=for-the-badge&logo=travis&logoColor=white)](https://travis-ci.org/) [![Vercel](https://img.shields.io/badge/Vercel-00000?style=for-the-badge&logo=Vercel&logoColor=white)](https://vercel.com/) [![Circleci](https://img.shields.io/badge/circleci-600000?style=for-the-badge&logo=circleci&logoColor=white)](https://circleci.com/)
-<br>
+| Hosting | |
+| -------------------| ------------------------------------------------------ |
+| GITHUB    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/github-api.png"> |
+| AWS  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/aws.png"> |
+| Azure  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/azure.png"> |
+| Heroku  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/heroku.png"> |
+| Railway  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/railway.png"> |
+| Replit  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/replit.png"> |
+| Travis  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/travis.png"> |
+| Vercel  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/vercel.png"> |
+| Circle ci  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/circleci.png"> |
 
 ---
 
