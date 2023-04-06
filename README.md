@@ -18,6 +18,7 @@
 - 👨‍💻 I'm from Kerala🙌💖.
 - 👨‍💻 Currently, I'm doing diploma in computer engineering at GPTC Perumbavoor, Kerala😜. 
 - 👨‍💻 I love coding 😍😉
+- 👨‍💻 I'm passionate about programming and technology, and I love learning new things
 - 👨‍💻 I'm working as an Open Source Software Developer.😁 
 - 👨‍💻 All of my Open Source projects are available at **[repositories](https://github.com/Ajayos?tab=repositories)**
 - 👨‍💻 🆓 Don't Forget To **[Follow Me](https://github.com/Ajayos)**
@@ -31,15 +32,17 @@
 
 ---
 # **🌐 Socials**
+| Platform	    |            Logo             | URL                       |
+| ------------- | --------------------------- | ------------------------- |
+| Instagram     |  logo                       | [`_ajay_o_s_`](https://instagram.com/_ajay_o_s_) |
+| WHATSAPP     |  logo                       | [`Ajayos`](https://api.whatsapp.com/send?phone=919188346721&text=%20Hi%20I%20Am%20From%20Github%20💖) |
+| TELEGRAM     |  logo                       | [`_ajay_o_s_`](https://t.me/_ajay_o_s_) |
+| GMAIL     |  logo                       | [`ajayosakhub@gmail.com`](mailto:ajayosakhub@gmail.com?subject=[%20FROM%20GITHUB%20) |
+| Twitter     |  logo                       | [`_ajay_o_s_`](https://twitter.com/_ajay_o_s_) |
+| GITHUB     |  logo                       | [`Ajayos`](https://github.com/Ajayos) |
+| Replit     |  logo                       | [`@Ajay-o-s`](https://replit.com/@Ajay-o-s/) |
+| linkedin     |  logo                       | [`ajay-o-s`](https://www.linkedin.com/in/ajay-o-s/) |
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_ajay_o_s_)
-[![WHATSAPP](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=919188346721&text=%20Hi%20I%20Am%20From%20Github%20💖)
-[![TELEGRAM](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/_ajay_o_s_) 
-[![GMAIL](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajayosakhub@gmail.com?subject=[%20FROM%20GITHUB%20])
-[![Twitter](https://img.shields.io/badge/twitter-2CA5E0?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_ajay_o_s_)
-[![GITHUB](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ajayos)
-[![Replit](https://img.shields.io/badge/replit-000008?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/@Ajay-o-s/)
-[![linkedin](https://img.shields.io/badge/linkedin-236ad3?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajay-o-s/)
 
 ---
 
@@ -64,6 +67,31 @@
 
 
 ### Programming Languange 💻
+
+
+| Technology    | Logo                                                                 |
+| ------------- | -------------------------------------------------------------------- |
+| JavaScript    | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"> |
+| TypeScript    | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"> |
+| Node.js       | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"> |
+| HTML          | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"> |
+| CSS           | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"> |
+| PHP           | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/php/php.png"> |
+| C++           | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/cpp/cpp.png"> |
+| C             | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/c/c.png"> |
+| Python        | <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> |
+| Bash          | <img width="30px" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"> |
+| Rust          | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/rust/rust.png"> |
+| Ruby          | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/ruby/ruby.png"> |
+| PostgreSQL    | <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"> |
+| Docker        | <img width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/docker/docker.png"> |
+| SVG           | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/svg/svg.png"> |
+| Linux         | <img width="30px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"> |
+| Heroku        | <img width="30px" src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"> |
+| Google Cloud  | <img width="30px" src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"> |
+
+I have experience working with these technologies both professionally and personally, and I'm always looking for new opportunities to expand my skillset
+
 
 <img   align="left" alt="JavaScript" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <img   align="left" alt="TypeScript" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
