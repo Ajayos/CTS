@@ -71,14 +71,14 @@
 
 | Technology    | Logo                                                                 |
 | ------------- | -------------------------------------------------------------------- |
-| JavaScript    | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"> |
-| TypeScript    | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"> |
-| Node.js       | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"> |
-| HTML          | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"> |
-| CSS           | <img width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"> |
-| PHP           | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/php/php.png"> |
-| C++           | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/cpp/cpp.png"> |
-| C             | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/c/c.png"> |
+| JavaScript    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/javascript.png"> |
+| TypeScript    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/typescript.png"> |
+| Node.js       | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/nodejs.png"> |
+| HTML          | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/html.png"> |
+| CSS           | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/css.png"> |
+| PHP           | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/php.png"> |
+| C++           | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/cpp.png"> |
+| C             | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/c.png"> |
 | Python        | <img width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> |
 | Bash          | <img width="30px" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"> |
 | Rust          | <img width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/rust/rust.png"> |
@@ -90,31 +90,8 @@
 | Heroku        | <img width="30px" src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"> |
 | Google Cloud  | <img width="30px" src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"> |
 
-I have experience working with these technologies both professionally and personally, and I'm always looking for new opportunities to expand my skillset
 
 
-<img   align="left" alt="JavaScript" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img   align="left" alt="TypeScript" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
-<img   align="left" alt="NPM" width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/npm/npm.png" />
-<img   align="left" alt="Node.js" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-<img   align="left" alt="Java" width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/java/java.png" />
-<img   align="left" alt="HTML5" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img   align="left" alt="CSS3" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img   align="left" alt="Php" width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/php/php.png" />
-<img   align="left" alt="C++" width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/cpp/cpp.png" />
-<img   align="left" alt="C" width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/c/c.png" /><br></br>
-
-<img   align="left" alt="PYTHON" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
-<img   align="left" alt="bash" width="30px" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" />
-<img   align="left" alt="DOCKER" width="40px" src="https://raw.githubusercontent.com/github/explore/master/topics/docker/docker.png" />
-<img   align="left" alt="SVG" width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/svg/svg.png" />
-<img   align="left" alt="postgresql" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" />
-<img   align="left" alt="Rust" width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/rust/rust.png" />
-<img   align="left" alt="Ruby" width="30px" src="https://raw.githubusercontent.com/github/explore/master/topics/ruby/ruby.png" />
-<img   align="left" alt="linux" width="30px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
-<img   align="left" alt="heroku" width="30px" src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" />
-<img   align="left" alt="google_cloud" width="30px" src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" />
-<br><br>
 
 ---
 
