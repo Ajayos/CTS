@@ -207,7 +207,7 @@
 [![Metrics](https://github.com/Ajayos/Ajayos/actions/workflows/Metrics.yml/badge.svg?branch=main)](https://github.com/Ajayos/Ajayos/actions/workflows/Metrics.yml)
 
 ---
-
+[![Ajayos](./github-metrics.svg)](https://github.com/Ajayos) 
 
 ## Metrics ⬇
 
