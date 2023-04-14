@@ -102,4 +102,4 @@ jobs:
           plugin_tweets: yes
           plugin_tweets_attachments: yes
           plugin_tweets_limit: 2
-          plugin_tweets_user: ${{ github.event.inputs.twitter }}
+          plugin_tweets_user: https://twitter.com/_ajay_o_s_
