@@ -14,7 +14,7 @@
 
 ---
 
-- # 👨‍💻Hi&nbsp;<a href="Hey"><img src="./Hi.gif" width="48px"></a> I'm [Ajay o s](https://github.com/Ajayos),
+- # 👨‍💻Hi&nbsp;<a href="Hey"><img src="./git/Hi.gif" width="48px"></a> I'm [Ajay o s](https://github.com/Ajayos),
 - 👨‍💻 I'm from Kerala🙌💖.
 - 👨‍💻 Currently, I'm doing diploma in computer engineering at GPTC Perumbavoor, Kerala😜. 
 - 👨‍💻 I love coding 😍😉

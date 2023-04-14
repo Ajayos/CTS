@@ -78,7 +78,7 @@ jobs:
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_pwa: yes
           plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: .user.website
+          plugin_pagespeed_url: https://github.com/Ajayos
           plugin_people: yes
           plugin_people_identicons: yes
           plugin_people_limit: 24
@@ -102,4 +102,4 @@ jobs:
           plugin_tweets: yes
           plugin_tweets_attachments: yes
           plugin_tweets_limit: 2
-          plugin_tweets_user: user.twitter
+          plugin_tweets_user: ${{ github.event.inputs.twitter }}
