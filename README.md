@@ -5,7 +5,7 @@
 [![Ajayos](https://github.com/Ajayos.png?size=200)](https://github.com/Ajayos) 
 
 <a href="https://github.com/Ajayos?tab=repositories"><img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.herokuapp.com/badge/-All%20Repos-2962FF?style=for-the-badge&logoColor=white&logo=repo"/></a>
-<a href="https://github.com/PKG-A-O-S"><img alt="All Repositories" title="PACKAGES" src="https://custom-icon-badges.herokuapp.com/badge/-PACKAGES-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a> <a href="https://github.com/TB-SUDO"><img alt="All Repositories" title="TEAM BLACK_SUDO" src="https://custom-icon-badges.herokuapp.com/badge/-TB_SUDO-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a>
+<a href="https://github.com/PKG-A-O-S"><img alt="All Repositories" title="PACKAGES" src="https://custom-icon-badges.herokuapp.com/badge/-PACKAGES-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a> <a href="https://github.com/soweha"><img alt="All Repositories" title="SO WE HA" src="https://custom-icon-badges.herokuapp.com/badge/-soweha-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a>
 
 <a href="https://github.com/Ajayos/Ajayos">
 <img src="https://profile-counter.glitch.me/{Ajayos}/count.svg"></a>
