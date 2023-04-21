@@ -5,7 +5,7 @@
 [![Ajayos](https://github.com/Ajayos.png?size=200)](https://github.com/Ajayos) 
 
 <a href="https://github.com/Ajayos?tab=repositories"><img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.herokuapp.com/badge/-All%20Repos-2962FF?style=for-the-badge&logoColor=white&logo=repo"/></a>
-<a href="https://github.com/PKG-A-O-S"><img alt="All Repositories" title="PACKAGES" src="https://custom-icon-badges.herokuapp.com/badge/-PACKAGES-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a> <a href="https://github.com/TB-SUDO"><img alt="All Repositories" title="TEAM BLACK_SUDO" src="https://custom-icon-badges.herokuapp.com/badge/-TB_SUDO-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a>
+<a href="https://github.com/PKG-A-O-S"><img alt="All Repositories" title="PACKAGES" src="https://custom-icon-badges.herokuapp.com/badge/-PACKAGES-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a> <a href="https://github.com/soweha"><img alt="All Repositories" title="SO WE HA" src="https://custom-icon-badges.herokuapp.com/badge/-soweha-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a>
 
 <a href="https://github.com/Ajayos/Ajayos">
 <img src="https://profile-counter.glitch.me/{Ajayos}/count.svg"></a>
@@ -14,7 +14,7 @@
 
 ---
 
-- # 👨‍💻Hi&nbsp;<a href="Hey"><img src="./Hi.gif" width="48px"></a> I'm [Ajay o s](https://github.com/Ajayos),
+- # 👨‍💻Hi&nbsp;<a href="Hey"><img src="./git/Hi.gif" width="48px"></a> I'm [Ajay o s](https://github.com/Ajayos),
 - 👨‍💻 I'm from Kerala🙌💖.
 - 👨‍💻 Currently, I'm doing diploma in computer engineering at GPTC Perumbavoor, Kerala😜. 
 - 👨‍💻 I love coding 😍😉
@@ -62,7 +62,10 @@
 </div>
 
 ---
-
+```
+👨‍💻CODE BY 🕊️★⃝AJAY O S©️🧚‍♂️
+```
+---
 # This is Skill i have learned ⬇
 
 
@@ -207,8 +210,5 @@
 [![Metrics](https://github.com/Ajayos/Ajayos/actions/workflows/Metrics.yml/badge.svg?branch=main)](https://github.com/Ajayos/Ajayos/actions/workflows/Metrics.yml)
 
 ---
+[![Ajayos](./github-metrics.svg)](https://github.com/Ajayos) 
 
-
-## Metrics ⬇
-
-![Metrics](https://metrics.lecoq.io/Ajayos?template=classic&base.indepth=true&base.hireable=true&repositories.forks=true&isocalendar=1&languages=1&lines=1&stars=1&pagespeed=1&tweets=1&leetcode=1&introduction=1&projects=1&gists=1&code=1&activity=1&notable=1&achievements=1&discussions=1&repositories=1&sponsors=1&people=1&followup=1&habits=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=true&base.hireable=true&base.skip=false&repositories.batch=100&repositories.forks=true&repositories.affiliations=owner&isocalendar=false&isocalendar.duration=full-year&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&stars=false&stars.limit=4&habits=false&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&followup=false&followup.sections=repositories&followup.indepth=true&followup.archived=true&people=false&people.limit=24&people.identicons=true&people.identicons.hide=false&people.size=28&people.types=followers%2C%20following&people.shuffle=true&sponsors=false&sponsors.sections=goal%2C%20list%2C%20about&sponsors.past=true&sponsors.size=24&sponsors.title=Sponsor%20Me!&repositories=false&repositories.pinned=0&repositories.starred=0&repositories.random=0&repositories.order=featured%2C%20pinned%2C%20starred%2C%20random&discussions=false&discussions.categories=true&discussions.categories.limit=0&achievements=false&achievements.threshold=X&achievements.secrets=true&achievements.display=detailed&achievements.limit=7&notable=false&notable.from=all&notable.repositories=true&notable.indepth=true&notable.types=commit&notable.self=true&activity=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=true&activity.filter=all&code=false&code.lines=12&code.load=400&code.days=3&code.visibility=all&gists=false&projects=false&projects.limit=4&projects.descriptions=true&introduction=false&introduction.title=true&pagespeed=false&pagespeed.url=.user.website&pagespeed.detailed=true&pagespeed.screenshot=true&pagespeed.pwa=true&tweets=false&tweets.user=.user.twitter&tweets.attachments=true&tweets.limit=2&leetcode=false&leetcode.user=.user.login&leetcode.sections=solved&leetcode.limit.skills=10&leetcode.limit.recent=2&config.timezone=Asia%2FCalcutta&config.twemoji=true&config.octicon=true&config.display=large)
