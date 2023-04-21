@@ -62,6 +62,15 @@
 </div>
 
 ---
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=Ajayos&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Ajayos&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+---
+
 ```
 👨‍💻CODE BY 🕊️★⃝AJAY O S©️🧚‍♂️
 ```
@@ -211,4 +220,5 @@
 
 ---
 [![Ajayos](./github-metrics.svg)](https://github.com/Ajayos) 
+
 
