@@ -1,5 +1,9 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%232DD309&size=28&lines=HI+I'm+AJAY+O+S;Nice+to+meet+you..!)](https://git.io/typing-svg)
-<br>
+ [![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)](https://www.youtube.com/watch?v=SDkAGkd4NLc) 
+<div align="center">
+   
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=ROBOT&size=25&color=39FF14&background=000000&center=true&vCenter=true&width=490&lines=HI+I'm+AJAY+O+S;Welcome+to+my+GitHub+profile...!;Nice+to+meet+you..!)
+
+</div>
 <div align="center">
 
 [![Ajayos](https://github.com/Ajayos.png?size=200)](https://github.com/Ajayos) 
@@ -24,7 +28,13 @@
 - 👨‍💻 Currently, I'm doing diploma in computer engineering at GPTC Perumbavoor, Kerala😜. 
 - 👨‍💻 I love coding 😍😉
 - 👨‍💻 I'm passionate about programming and technology, and I love learning new things
-- 👨‍💻 I'm working as an Open Source Software Developer.😁 
+- 👨‍💻 I'm working as an Open Source Software Developer.😁
+- 👨‍💻 👯 I’m looking forward to collaborate on open source projects.
+- 👨‍💻 💬 Ask me about anything, I am happy to help, only if the ball is in my court!😉
+- 👨‍💻 😄 Pronouns: He/Him/We
+- 👨‍💻 ⚡ Coding fact: "There are over 700 different programming languages".
+- 👨‍💻 💪🏼 Fav Quote: "Great Developers never stop learning".
+- 👨‍💻 🔄 Routine : Eat - Sleep - Code - Repeat
 - 👨‍💻 All of my Open Source projects are available at **[repositories](https://github.com/Ajayos?tab=repositories)**
 - 👨‍💻 🆓 Don't Forget To **[Follow Me](https://github.com/Ajayos)**
 
@@ -33,16 +43,94 @@
 
 <br><br>
 
+<img src="./gif/loading.gif">
 
+<img align="right" height="150rem" alt="GIF" src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/200w.webp?cid=ecf05e47yrznhyd4w1cnwbe3hlilpmls3c0mrsymhdzmzp5z&rid=200w.webp" />
+
+```js
+import Developer from 'Ajayos';
+
+class Bio extends Developer {
+  name     = 'Ajay o s';
+  title    = 'Software Engineer';
+  company  = 'AKHUB | SOWEHA';
+  location = 'KERALA, INDIA';
+}
+
+class Skills extends Developer {
+  languages  = ['JavaScript', 'PHP','Java','C','C++'];
+  databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
+  frameworks = ['React', 'React Native', 'Angular', 'GraphQL'];
+}
+```
+
+<img src="./gif/loading.gif">
+<p align="center">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="1000">
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=shark&height=30&section=header&reversal=false&color=0:b579da,100:79da7f">
+</p></p>
+<h4 align="center">
+
+```diff
++@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
+@@       o o                                           @@
+@@       | |                                           @@
+@@      _L_L_                                          @@
+@@   ❮\/__-__\/❯ Programming isn't about what you know @@
+@@   ❮(|~o.o~|)❯  It's about what you can figure out   @@
+@@   ❮/ \`-'/ \❯                                       @@
+@@     _/`U'\_                                         @@
+@@    ( .   . )     .----------------------------.     @@
+@@   / /     \ \    | while( ! (succed=try() ) ) |     @@
+@@   \ |  ,  | /    '----------------------------'     @@
+@@    \|=====|/                                        @@
+@@     |_.^._|                                         @@
+@@     | |"| |                                         @@
+@@     ( ) ( )   Testing leads to failure              @@
+@@     |_| |_|   and failure leads to understanding    @@
+@@ _.-' _j L_ '-._                                     @@
+@@(___.'     '.___)                                    @@
++@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
+```
+</h4>
+
+
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=shark&height=30&section=footer&reversal=false&color=0:b579da,100:79da7f">
+</p>
+<p align="center">
+   <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="1000">
+ </p>
+ 
+<img src="./gif/loading.gif">
+
+<details><summary><img src="https://i.imgur.com/x1KbuCq.gif" width="500"></summary>
+
+ 
+![GitHub Snake Light](github-user-contribution.svg#gh-light-mode-only)
+![GitHub Snake dark ](github-user-contribution.svg#gh-dark-mode-only)
+   
+</details>
 
 <img src="./gif/loading.gif">
 
-<details><summary><h3>🐍 A Snake Eating my Contributions Graph</h3></summary>
+<details>
+   <summary><b><h3>🎨 THEMEMODE</h3></b><br></summary>
+<h4 align="left">
 
-![GitHub Snake Light](github-user-contribution.svg#gh-light-mode-only)
-![GitHub Snake dark ](github-user-contribution.svg#gh-dark-mode-only)
-</details>
-
+</h4>
+ 
+╔═&nbsp;&nbsp;👀 𝕐&nbsp;𝕆&nbsp;𝕌&nbsp;ℝ&nbsp;&nbsp;𝕋&nbsp;ℍ&nbsp;𝔼&nbsp;𝕄&nbsp;𝔼&nbsp;&nbsp;𝕄&nbsp;𝕆&nbsp;𝔻&nbsp;𝔼 👀
+<h4>
+<h4 align="left">  
+ 
+╚═════ &nbsp;𝐈𝐓'𝐒 [𝐃𝐀𝐑𝐊⚫](https://github.com/settings/appearance#gh-dark-mode-only)[𝐁𝐑𝐈𝐆𝐇𝐓⚪](https://github.com/settings/appearance#gh-light-mode-only) 𝐈𝐍 𝐇𝐄𝐑𝐄...
+<h4>
+<!--🪳ROACH&🕷️SPIDER--> 
+<p align="left">
+<img src="https://media.giphy.com/media/2fC8cduAc35UIAxHDE/giphy.gif" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://c.tenor.com/3dgbcMt6Kx4AAAAi/spider-insect.gif" width="40">
+ </details>
 <img src="./gif/loading.gif">
 
 <details>
@@ -52,6 +140,10 @@
     <h2 >you can reach me by:</h2>
       <br/>
     
+
+<img align="right" alt="Coding" width="450" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+     
+     
    | Platform	    |            Logo             | URL                       |
 | ------------- | --------------------------- | ------------------------- |
 | GITHUB        |    <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/github-api.png">                     | [`Ajayos`](https://github.com/Ajayos) |
@@ -92,9 +184,12 @@
 
 <details><summary><b><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><h3>GitHub Stats</h3></b></summary>
 <div align="center">
+<img src="https://i.imgur.com/YCw47Dm.gif">
+<img src="https://media.giphy.com/media/IP7sarl7C5lSFCw9rG/giphy.gif"  width="100px" height="100px">
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ajayos&show_icons=true&theme=highcontrast" alt="Ajayos" /></p><p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Ajayos&theme=highcontrast" alt="Ajayos" /></p>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sreza78&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="GitHub readme stats" width=405px>
 <br><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajayos&layout=compact&theme=onedark&langs_count=6&hide_border=true&hide=jupyter%20notebook,vim%20script,shell,roff,css,scheme,scss&title_color=58A6FF&icon_color=1F6FEB&text_color=C3D1D9&bg_color=0D1117&custom_title=Summary" alt="GitHub readme stats" width=405px>
+ <br><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ajayos&theme=radical&hide_border=true)](https://github.com/Ajayos" alt="Ajay o s"/>
 </div>
 </details>
 
@@ -250,6 +345,16 @@
 [![Ajayos](./github-metrics.svg)](https://github.com/Ajayos) 
 
 </details>
+   
+<img src="./gif/loading.gif">
+   
+<p align="center">
+   
+   ![Chrome Dino](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4ff07986208593.5d9a654e92f36.gif)
+   
+<img src="https://capsule-render.vercel.app/api?type=shark&height=30&section=footer&reversal=false&color=0:b579da,100:79da7f">
+</p>
+
 <img src="./gif/loading.gif">
 
 
