@@ -27,12 +27,24 @@
 
 ---
 
+<details><summary><h1>🐍 A Snake Eating my Contributions Graph</h1></summary>
+   
+
 ![GitHub Snake Light](github-user-contribution.svg#gh-light-mode-only)
 ![GitHub Snake dark ](github-user-contribution.svg#gh-dark-mode-only)
+</details>
 
----
-# **🌐 Socials**
-| Platform	    |            Logo             | URL                       |
+-----
+
+<details>
+   <summary><b> <h1>Let's Connect..!</h1></b><img src="./gif/handshake.gif" width ="80">
+<br></summary>
+<div >
+  <samp >
+    <h2 >you can reach me by:</h2>
+      <br/>
+    
+   | Platform	    |            Logo             | URL                       |
 | ------------- | --------------------------- | ------------------------- |
 | GITHUB        |    <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/github-api.png">                     | [`Ajayos`](https://github.com/Ajayos) |
 | Instagram     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/instagram.png">                       | [`_ajay_o_s_`](https://instagram.com/_ajay_o_s_) |
@@ -43,31 +55,39 @@
 | Replit     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/replit.png">                       | [`@Ajay-o-s`](https://replit.com/@Ajay-o-s/) |
 | linkedin     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/linkedin.png">                       | [`ajay-o-s`](https://www.linkedin.com/in/ajay-o-s/) |
 
+   </samp>
+</div>
+</details>
 
----
 
-# **sponsor**
+<details><summary><h1>⚡ Recent GitHub Activity</h1></summary>
+   
+[![Ajayos's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Ajayos&theme=github	)](https://github.com/Ajayos)
+</details>
 
+<details><summary><h1>sponsor</h1></summary>
 <a href="https://github.com/sponsors/Ajayos" target="_blank"><img alt="Sponsor with Github" title="Sponsor with Github" src="https://custom-icon-badges.herokuapp.com/badge/Sponsor-pink?style=for-the-badge&logo=GitHub&color=black"/></a>    <a href="https://www.buymeacoffee.com/Ajayos" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" height="28" width="119"></a>
 <br>
+</details>
 
----
-
-# **📊 GitHub Stats**
+<details><summary><b><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><h1>GitHub Stats</h1></b></summary>
 <div align="center">
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ajayos&show_icons=true&theme=highcontrast" alt="Ajayos" /></p><p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Ajayos&theme=highcontrast" alt="Ajayos" /></p>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sreza78&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="GitHub readme stats" width=405px>
 <br><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajayos&layout=compact&theme=onedark&langs_count=6&hide_border=true&hide=jupyter%20notebook,vim%20script,shell,roff,css,scheme,scss&title_color=58A6FF&icon_color=1F6FEB&text_color=C3D1D9&bg_color=0D1117&custom_title=Summary" alt="GitHub readme stats" width=405px>
-
 </div>
+</details>
 
----
-
-### 🔝 Top Contributed Repo
+<details><summary><h3>🔝 Top Contributed Repo</h3></summary>
+   
 ![](https://github-contributor-stats.vercel.app/api?username=Ajayos&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</details>
 
-## 🏆 GitHub Trophies
+<details><summary><h3>🏆 GitHub Trophies</h3></summary>
+   
 ![](https://github-profile-trophy.vercel.app/?username=Ajayos&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+</details>
+
 
 ---
 
@@ -207,11 +227,6 @@
 
 ---
 
-# 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Ajayos&theme=onedark&no-frame=false&no-bg=true&margin-w=4)
-
-
----
 
 ## Metrics ⬇
 
