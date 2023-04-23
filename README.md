@@ -63,6 +63,13 @@
 | Replit     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/replit.png">                       | [`@Ajay-o-s`](https://replit.com/@Ajay-o-s/) |
 | linkedin     |  <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/linkedin.png">                       | [`ajay-o-s`](https://www.linkedin.com/in/ajay-o-s/) |
 
+<img src="./gif/loading.gif">
+
+```
+👨‍💻CODE BY 🕊️★⃝AJAY O S©️🧚‍♂️
+```
+
+
    </samp>
 </div>
 </details>
@@ -107,17 +114,7 @@
 
 <img src="./gif/loading.gif">
 
----
-
-```
-👨‍💻CODE BY 🕊️★⃝AJAY O S©️🧚‍♂️
-```
----
-# This is Skill i have learned ⬇
-
-
-### Programming Languange 💻
-
+<details><summary><h3>💻 Programming Languange </h3></summary>
 
 |    |         |
 | ------------- | -------------------------------------------------------------------- |
@@ -141,12 +138,9 @@
 | Google Cloud  | <img width="30px" src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"> |
 
 
-
-
----
-
-### Databases
-
+</details>
+<img src="./gif/loading.gif">
+<details><summary><h3>💻 Databases </h3></summary>
 
 | Databases  | |
 | ------------- | -------------------------------------------------------------------- |
@@ -159,8 +153,9 @@
 | MariaDB    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/mariadb.png"> |
 | PSQLite    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/sqlite.png"> |
 
----
-### Frameworks
+</details>
+<img src="./gif/loading.gif">
+<details><summary><h3>💻 Frameworks </h3></summary>
 
 | Frameworks | |
 | ------------- | -------------------------------------------------------------------- |
@@ -174,9 +169,9 @@
 | NextJS   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/nextjs.png"> |
 
 
----
-
-### Tools and OS ⚒
+</details>
+<img src="./gif/loading.gif">
+<details><summary><h3>💻 Tools and OS ⚒ </h3></summary>
 
 | Tools and OS ⚒ | |
 | ------------- | -------------------------------------------------------------------- |
@@ -189,9 +184,9 @@
 | Linux Mint  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/linux-mint.png"> |
 | Debian  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/debian.png"> |
 
----
-
-### Tools/bash
+</details>
+<img src="./gif/loading.gif">
+<details><summary><h3>💻 Tools/bash </h3></summary>
 
 | Tools/bash | |
 | ------------- | -------------------------------------------------------------------- |
@@ -201,18 +196,19 @@
 | Git   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/git.png"> |
 | Powershell   | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/powershell.png"> |
 
----
+</details>
+<img src="./gif/loading.gif">
+<details><summary><h3>💻 Microcontroller ⚙ </h3></summary>
 
-### Microcontroller ⚙
 
 | Microcontroller ⚙ | |
 | ------------- | -------------------------------------------------------------------- |
 | Arduino    | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/arduino.png"> |
 | Raspberry PI  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/raspberry-pi.png"> |
 
----
-
-### Text Editor 
+</details>
+<img src="./gif/loading.gif">
+<details><summary><h3>💻 Text Editor </h3></summary> 
 
 | Text Editor | |
 | ------------- | -------------------------------------------------------------------- |
@@ -227,9 +223,9 @@
 | Gedit  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/gedit.png"> |
 | Nano  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/nano.png"> |
 
----
-
-### Hosting
+</details>
+<img src="./gif/loading.gif">
+<details><summary><h3>💻 Hosting </h3></summary> 
 
 | Hosting | |
 | -------------------| ------------------------------------------------------ |
@@ -243,15 +239,17 @@
 | Vercel  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/vercel.png"> |
 | Circle ci  | <img width="30px" src="https://raw.githubusercontent.com/Ajayos/.github/master/IMAGE/circleci.png"> |
 
----
-
-
-## Metrics ⬇
-
+</details>
+<img src="./gif/loading.gif">
+<details><summary><h3>💻 Metrics ⬇ </h3></summary> 
 
 [![Metrics](https://github.com/Ajayos/Ajayos/actions/workflows/Metrics.yml/badge.svg?branch=main)](https://github.com/Ajayos/Ajayos/actions/workflows/Metrics.yml)
 
----
+<img src="./gif/loading.gif">
+
 [![Ajayos](./github-metrics.svg)](https://github.com/Ajayos) 
+
+</details>
+<img src="./gif/loading.gif">
 
 
