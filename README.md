@@ -105,6 +105,13 @@ class Skills extends Developer {
  
 <img src="./gif/loading.gif">
 
+
+<details><summary><h3>Ajay o s profile views</h3></summary>
+
+[![Ajay o s profile views](https://u8views.com/api/v1/github/profiles/85875720/views/day-week-month-total-count.svg)](https://u8views.com/github/Ajayos)
+   
+</details>
+<img src="./gif/loading.gif">
 <details><summary><img src="https://i.imgur.com/x1KbuCq.gif" width="500"></summary>
 
  
