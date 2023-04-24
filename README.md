@@ -6,7 +6,8 @@
 </div>
 <div align="center">
 
-[![Ajayos](https://github.com/Ajayos.png?size=200)](https://github.com/Ajayos) 
+
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=Ajayos&data=followers,repositories,stars,commits&theme=darkmode)](https://github.com/Ajayos)
 
 <a href="https://github.com/Ajayos?tab=repositories"><img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.herokuapp.com/badge/-All%20Repos-2962FF?style=for-the-badge&logoColor=white&logo=repo"/></a>
 <a href="https://github.com/PKG-A-O-S"><img alt="All Repositories" title="PACKAGES" src="https://custom-icon-badges.herokuapp.com/badge/-PACKAGES-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a> <a href="https://github.com/soweha"><img alt="All Repositories" title="SO WE HA" src="https://custom-icon-badges.herokuapp.com/badge/-soweha-2962FF?style=for-the-badge&logoColor=white&logo=Organization"/></a>
@@ -44,6 +45,7 @@
 <br><br>
 
 <img src="./gif/loading.gif">
+
 
 <img align="right" height="150rem" alt="GIF" src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/200w.webp?cid=ecf05e47yrznhyd4w1cnwbe3hlilpmls3c0mrsymhdzmzp5z&rid=200w.webp" />
 
