@@ -13,5 +13,5 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.TOCKENW }}
-          GH_TOKEN: ${{ secrets.TOKEN }}
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
           #REPOSITORY: <gh_username/gh_username>
