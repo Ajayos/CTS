@@ -15,6 +15,7 @@
  * All rights reserved. (C) 2023 Ajayos
  */
 
+
 // Import the necessary models and schemas
 const connectDB = require("./Database");
 const Admin = require("./adminModel");

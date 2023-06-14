@@ -5,7 +5,7 @@
  * @link : https://github.com/Ajayos/CTS
  * @author : Ajay o s
  * @created : 12-6-2023
- * @modified : 12-6-2023
+ * @modified : 14-6-2023
  * @editor : Ajayos
  * @file : index.js
  * @path : index.js
@@ -14,7 +14,6 @@
  *
  * All rights reserved. (C) 2023 Ajayos
  */
-
 
 // Import dependencies
 const os = require("os");

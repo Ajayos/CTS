@@ -47,7 +47,7 @@ const connectDB = async () => {
     // Log an error message if the connection failed
     log(`Error: ${error.message}`.red.bold);
     // Exit the process with a non-zero status code
-    process.exit();
+    process.exit(1);
   }
 };
 
