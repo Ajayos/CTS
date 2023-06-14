@@ -28,13 +28,19 @@ const protectUser = asyncHandler(async (req, res, next) => {
       const token = req.headers.authorization.split(" ")[1];
 
       // Decode the token to get the user id, email, and hashed password
+      const { data: data_, error: error_ } = await decode(token);
+      if (error_) {
+        return res.status(401).json({
+          error: true,
+          message: data_.message,
+        });
+      }
+      const { id, password } = data_;
 
-      const { id, email, hashedPassword } = await decode(token);
-
-      const { status, message, error, data } = await protectUser(
+      const { status, message, error, data } = await protectUser({
         id,
-        hashedPassword
-      );
+        password,
+      });
 
       if (error) {
         return res.status(status).json({ error: true, message: message });

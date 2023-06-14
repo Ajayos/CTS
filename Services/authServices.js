@@ -15,6 +15,10 @@
  * All rights reserved. (C) 2023 Ajayos
  */
 
+//importing
+const filename = "authServices";
+const { Admin, User } = require("../Models");
+const isEqual = require("../lib/isEqual");
 /**
  * Validates and protects a user's access based on provided data.
  * @param {Object} data - The data object containing user information.
@@ -40,7 +44,7 @@ exports.protectUser = async (data) => {
       };
     }
 
-    if (user.password !== password) {
+    if (isEqual(user.password, password)) {
       // Password doesn't match
       return {
         status: 401,
@@ -113,7 +117,7 @@ exports.protectAdmin = async (data) => {
       };
     }
 
-    if (admin.password !== password) {
+    if (isEqual(admin.password, password)) {
       // Password doesn't match
       return {
         status: 401,
