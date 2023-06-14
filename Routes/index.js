@@ -8,7 +8,7 @@
  * @modified : 14-6-2023
  * @editor : Ajayos
  * @file : index.js
- * @path : /Router/index.js
+ * @path : /Routes/index.js
  *
  * GitHub Repository: https://github.com/Ajayos/CTS
  *

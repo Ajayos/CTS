@@ -6,7 +6,11 @@
   "lib": "lib",
   "scripts": {
     "start": "node index.js",
-    "test": "nodemon index.js"
+    "test": "nodemon index.js",
+    "push": "git add . && git commit -m \"👨‍💻CODE BY 🕊️★⃝AJAY O S©️🧚‍♂️\"  && git push",
+    "add": "git add .",
+    "commit": "git commit -m \"👨‍💻CODE BY 🕊️★⃝AJAY O S©️🧚‍♂️\"",
+    "publish": "git push"
   },
   "repository": {
     "type": "git",
