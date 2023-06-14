@@ -37,13 +37,20 @@ CTS (Cloud Tools Server) is a powerful and scalable server program developed usi
 - [Contributing](#contributing)
 - [License](#license)
 
+---
+
 ## Introduction
 
 CTS (Cloud Tools Server).
 
 ``Loading...``
+
+---
+
 ## Features
 ``Loading...``
+
+---
 
 ## Dir
 
@@ -71,12 +78,16 @@ CTS (Cloud Tools Server).
     - Logger.js
   - index.js
 
-
+---
 
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to CTS, please follow the guidelines outlined in the [contributing guide](CONTRIBUTING.md). We appreciate your help in making CTS better.
 
+---
+
 ## License
 
 This project is licensed under the [Apache-2.0 License](/LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
+
+---
