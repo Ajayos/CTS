@@ -24,7 +24,6 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const express = require("express");
 const { v4: uuidv4 } = require("uuid");
-const { Server } = require('socket.io');
 const bodyParser = require("body-parser");
 const schedule = require("node-schedule");
 const { log } = require("@ajayos/nodelogger");
@@ -38,13 +37,6 @@ const { errorHandler } = require("./middleware/");
 // config env file
 dotenv.config();
 
-//
-process.on("uncaughtException", (err) => {
-  log(err);
-  log("UNCAUGHT Exception! Shutting down ...", "e");
-  process.exit(1); // Exit Code 1 indicates that a container shut down, either because of an application failure.
-});
-
 // Define
 const SERVER_PORT = process.env.PORT || 3000;
 const publicPath = path.join(__dirname, "/Public");
@@ -55,23 +47,16 @@ setupLogger();
 // connect to Database
 connectDB();
 
+// on UNCAUGHT error
+process.on("uncaughtException", (err) => {
+	log(err);
+	log("UNCAUGHT Exception! Shutting down ...", "e");
+	process.exit(1); // Exit Code 1 indicates that a container shut down, either because of an application failure.
+  });
+
 // Create Express app
 const app = express();
 const server = http.createServer(app);
-const io = socketIO(server, {
-  pingTimeout: 60000,
-});
-
-// Create an io server and allow for CORS from http://localhost:3000 with GET and POST methods
-const io = new Server(server, {
-	cors: {
-	  origin: "*",
-	  methods: ["GET", "POST"],
-	},
-	pingTimeout: 60000,
-  });
-  // Set up routes
-app.use('/socket.io', require('./Socket.io/index'));
 
 // Setup app for the data handling
 app.use(cors());
