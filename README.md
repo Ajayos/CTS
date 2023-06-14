@@ -2,6 +2,7 @@
 
 CTS (Cloud Tools Server) is a powerful and scalable server program developed using Express.js and Node.js. It leverages cloud technologies to deliver exceptional performance and flexibility. Seamlessly deploy and manage your web applications using CTS, empowering you with a wide range of cutting-edge tools and capabilities for a seamless development experience.
 
+---
 
 ``@project : CTS``
 
@@ -18,6 +19,7 @@ CTS (Cloud Tools Server) is a powerful and scalable server program developed usi
 ``All rights reserved. (C) 2023 Ajayos``
 
 ---
+
 [![njsscan sarif](https://github.com/Ajayos/CTS/actions/workflows/njsscan.yml/badge.svg)](https://github.com/Ajayos/CTS/actions/workflows/njsscan.yml)
 [![Dependency Review](https://github.com/Ajayos/CTS/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Ajayos/CTS/actions/workflows/dependency-review.yml)
 [![pages-build-deployment](https://github.com/Ajayos/CTS/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Ajayos/CTS/actions/workflows/pages/pages-build-deployment)
