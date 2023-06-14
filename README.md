@@ -41,7 +41,6 @@ CTS (Cloud Tools Server).
 
 ## Dir
 
-- CTS
   - controllers
     - index.js
   - middleware
