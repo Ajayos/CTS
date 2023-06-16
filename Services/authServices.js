@@ -74,7 +74,7 @@ exports.protectUser = async (data) => {
         data: undefined,
       };
     }
-    const token_ = user.token.find((t) => t.token === token);
+    const token_ = user.token.find((t) => isEqual(t.token, token));
     if (!token_) {
       return {
         status: 401,
@@ -136,7 +136,7 @@ exports.protectAdmin = async (data) => {
         data: undefined,
       };
     }
-    const token_ = admin.token.find((t) => t.token === token);
+    const token_ = admin.token.find((t) => isEqual(t.token, token));
     if (!token_) {
       return {
         status: 401,
