@@ -27,6 +27,7 @@ const { v4: uuidv4 } = require("uuid");
 const bodyParser = require("body-parser");
 const schedule = require("node-schedule");
 const { log } = require("@ajayos/nodelogger");
+const RateLimit = require('express-rate-limit');
 
 // Import local modules
 const setupLogger = require("./lib/Logger");
@@ -64,13 +65,24 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// set up rate limiter: maximum of five requests per minute
+var limiter = RateLimit({
+  windowMs: 1*60*1000, // 1 minute
+  max: 8
+});
+
+// apply rate limiter to all requests
+app.use(limiter);
+
 // setup api
 // v1 api
 app.use("/", apiRouter);
 app.use(express.static(publicPath));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(publicPath, "index.html"));
+  const path_ = path.join(publicPath, "index.html");
+  if (path_) return res.sendFile(path_);
+  else return res.send("404");
 });
 
 // Error handler middleware
