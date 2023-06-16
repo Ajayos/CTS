@@ -15,10 +15,10 @@
  * All rights reserved. (C) 2023 Ajayos
  */
 
+// import
 const asyncHandler = require("express-async-handler");
 const { protectUser, protectAdmin } = require("../Services/authServices");
 const { decode } = require("../lib/JWT");
-
 
 // Authentication middleware for users
 exports.protectUser = asyncHandler(async (req, res, next) => {
@@ -83,7 +83,10 @@ exports.protectAdmin = asyncHandler(async (req, res, next) => {
       );
 
       if (error) {
-        return res.status(status).json({ error: true, message: message });
+        return res.status(status).json({
+          error: true,
+          message: message,
+        });
       } else {
         next();
       }
