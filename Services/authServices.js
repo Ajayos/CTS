@@ -5,7 +5,7 @@
  * @link : https://github.com/Ajayos/CTS
  * @author : Ajay o s
  * @created : 12-6-2023
- * @modified : 14-6-2023
+ * @modified : 16-6-2023
  * @editor : Ajayos
  * @file : authServices.js
  * @path : /Services/authServices.js
@@ -24,12 +24,13 @@ const isEqual = require("../lib/isEqual");
  * @param {Object} data - The data object containing user information.
  * @param {string} data.id - The user's ID.
  * @param {string} data.password - The user's password.
+ * @param {String} data.token - The token of the user.
  * @returns {Object} - The result of the protection process.
  */
 exports.protectUser = async (data) => {
   try {
     // Destructure the data object to get the required properties
-    const { id, password } = data;
+    const { id, password, token } = data;
 
     // Find the user based on the decoded id
     const user = await User.findById(id);
@@ -73,7 +74,15 @@ exports.protectUser = async (data) => {
         data: undefined,
       };
     }
-
+    const token_ = user.token.find((t) => t.token === token);
+    if (!token_) {
+      return {
+        status: 401,
+        message: "Not authorized, token failed!",
+        error: true,
+        data: undefined,
+      };
+    }
     // User access is valid
     return {
       status: 200,
@@ -97,12 +106,13 @@ exports.protectUser = async (data) => {
  * @param {Object} data - The data object containing admin information.
  * @param {string} data.id - The admin's ID.
  * @param {string} data.password - The admin's password.
+ * @param {string} data.token - The admin's Token.
  * @returns {Object} - The result of the protection process.
  */
 exports.protectAdmin = async (data) => {
   try {
     // Destructure the data object to get the required properties
-    const { id, password } = data;
+    const { id, password, token } = data;
 
     // Find the admin based on the decoded id
     const admin = await Admin.findById(id);
@@ -119,6 +129,15 @@ exports.protectAdmin = async (data) => {
 
     if (isEqual(admin.password, password)) {
       // Password doesn't match
+      return {
+        status: 401,
+        message: "Not authorized, token failed!",
+        error: true,
+        data: undefined,
+      };
+    }
+    const token_ = admin.token.find((t) => t.token === token);
+    if (!token_) {
       return {
         status: 401,
         message: "Not authorized, token failed!",

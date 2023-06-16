@@ -5,7 +5,7 @@
  * @link : https://github.com/Ajayos/CTS
  * @author : Ajay o s
  * @created : 12-6-2023
- * @modified : 14-6-2023
+ * @modified : 16-6-2023
  * @editor : Ajayos
  * @file : authMiddleware.js
  * @path : /middleware/authMiddleware.js
@@ -19,7 +19,7 @@ const asyncHandler = require("express-async-handler");
 const { protectUser, protectAdmin } = require("../Services/authServices");
 const { decode } = require("../lib/JWT");
 // Authentication middleware for users
-const protectUser = asyncHandler(async (req, res, next) => {
+exports.protectUser = asyncHandler(async (req, res, next) => {
   if (
     req.headers.authorization &&
     req.headers.authorization.startsWith("Bearer")
@@ -40,6 +40,7 @@ const protectUser = asyncHandler(async (req, res, next) => {
       const { status, message, error, data } = await protectUser({
         id,
         password,
+        token,
       });
 
       if (error) {
@@ -62,7 +63,7 @@ const protectUser = asyncHandler(async (req, res, next) => {
 });
 
 // Authentication middleware for admins
-const protectAdmin = asyncHandler(async (req, res, next) => {
+exports.protectAdmin = asyncHandler(async (req, res, next) => {
   if (
     req.headers.authorization &&
     req.headers.authorization.startsWith("Bearer")
@@ -70,12 +71,13 @@ const protectAdmin = asyncHandler(async (req, res, next) => {
     try {
       const token = req.headers.authorization.split(" ")[1];
 
-      // Decode the token to get the user id, email, and hashed password
-      const { id, email, hashedPassword } = await decode(token);
+      // Decode the token to get the user id, email, and password
+      const { id, email, password } = await decode(token);
 
       const { status, message, error, data } = await protectAdmin(
         id,
-        hashedPassword
+        password,
+        token
       );
 
       if (error) {
@@ -96,8 +98,3 @@ const protectAdmin = asyncHandler(async (req, res, next) => {
     });
   }
 });
-
-module.exports = {
-  protectUser,
-  protectAdmin,
-};
