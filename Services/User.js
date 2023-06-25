@@ -281,6 +281,7 @@ exports.updatePassword = async (data) => {
   }
 };
 
+
 /**
  * Update user password.
  *
