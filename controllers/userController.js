@@ -4,11 +4,11 @@
  * @version : 12.5.3
  * @link : https://github.com/Ajayos/CTS
  * @author : Ajay o s
- * @created : 15-6-2023
- * @modified : 15-6-2023
+ * @created : 25-6-2023
+ * @modified : 25-6-2023
  * @editor : Ajayos
- * @file : adminController.js
- * @path : /controllers/adminController.js
+ * @file : userController.js
+ * @path : /controllers/userController.js
  *
  * GitHub Repository: https://github.com/Ajayos/CTS
  *
@@ -16,7 +16,6 @@
  */
 
 const asyncHandler = require("express-async-handler");
-const Admin = require("../Services/Admin");
 const User = require("../Services/User");
 
 /**
@@ -29,7 +28,7 @@ const User = require("../Services/User");
 
 exports.login = asyncHandler(async (req, res) => {
 	try {
-		const { status, message, error, data } = await Admin.login(req.body);
+		const { status, message, error, data } = await User.login(req.body);
 
 		if (error) {
 			return res.status(status).json({ error: true, message });
@@ -52,9 +51,61 @@ exports.login = asyncHandler(async (req, res) => {
  */
 exports.createAccount = asyncHandler(async (req, res) => {
 	try {
-		const { status, message, error, data } = await Admin.createAccount(
-			req.body
-		);
+		const { status, message, error, data } = await User.createAccount(req.body);
+
+		if (error) {
+			return res.status(status).json({ error: true, message });
+		}
+
+		return res.status(status).json(data);
+	} catch (error) {
+		return res
+			.status(500)
+			.json({ error: true, message: "Internal server error" });
+	}
+});
+
+/**
+ *
+ * @param {Object} req - Express request object.
+ * @param {Object} res - Express response object.
+ * @returns {Object} Response containing the output.
+ * @throws {Object} Error object if an error occurs during the process.
+ */
+exports.updatePassword = asyncHandler(async (req, res) => {
+	try {
+		const { status, message, error, data } = await User.updatePassword({
+			id: req.id,
+			password: req.body.password,
+			device: req.body.device,
+		});
+
+		if (error) {
+			return res.status(status).json({ error: true, message });
+		}
+
+		return res.status(status).json(data);
+	} catch (error) {
+		return res
+			.status(500)
+			.json({ error: true, message: "Internal server error" });
+	}
+});
+
+/**
+ *
+ * @param {Object} req - Express request object.
+ * @param {Object} res - Express response object.
+ * @returns {Object} Response containing the output.
+ * @throws {Object} Error object if an error occurs during the process.
+ */
+exports.forgotPassword = asyncHandler(async (req, res) => {
+	try {
+		const { status, message, error, data } = await User.forgotPassword({
+			email: req.body.email,
+			dob: req.body.dob,
+			password: req.body.password,
+		});
 
 		if (error) {
 			return res.status(status).json({ error: true, message });
@@ -78,7 +129,7 @@ exports.createAccount = asyncHandler(async (req, res) => {
 exports.editAccount = asyncHandler(async (req, res) => {
 	try {
 		const { status, message, error, data } = await User.editAccount({
-			id: req.body.id,
+			id: req.id,
 			name: req.body.name,
 			dob: req.body.dob,
 			age: req.body.age,
@@ -104,90 +155,12 @@ exports.editAccount = asyncHandler(async (req, res) => {
  * @returns {Object} Response containing the output.
  * @throws {Object} Error object if an error occurs during the process.
  */
-
 exports.editAccountPic = asyncHandler(async (req, res) => {
 	try {
 		const { status, message, error, data } = await User.editAccountPic({
-			id : req.body.id,
+			id: req.id,
 			pic: req.body.pic,
 		});
-
-		if (error) {
-			return res.status(status).json({ error: true, message });
-		}
-
-		return res.status(status).json(data);
-	} catch (error) {
-		return res
-			.status(500)
-			.json({ error: true, message: "Internal server error" });
-	}
-});
-
-/**
- *
- * @param {Object} req - Express request object.
- * @param {Object} res - Express response object.
- * @returns {Object} Response containing the output.
- * @throws {Object} Error object if an error occurs during the process.
- */
-
-exports.updateUserAccess = asyncHandler(async (req, res) => {
-	try {
-		const { status, message, error, data } = await User.editAccess({
-			id: req.body.id,
-			access: req.body.access,
-		});
-
-		if (error) {
-			return res.status(status).json({ error: true, message });
-		}
-
-		return res.status(status).json(data);
-	} catch (error) {
-		return res
-			.status(500)
-			.json({ error: true, message: "Internal server error" });
-	}
-});
-
-/**
- *
- * @param {Object} req - Express request object.
- * @param {Object} res - Express response object.
- * @returns {Object} Response containing the output.
- * @throws {Object} Error object if an error occurs during the process.
- */
-
-exports.deleteAccount = asyncHandler(async (req, res) => {
-	try {
-		const { status, message, error, data } = await User.deleteAccount({
-			id: req.params.id,
-		});
-
-		if (error) {
-			return res.status(status).json({ error: true, message });
-		}
-
-		return res.status(status).json(data);
-	} catch (error) {
-		return res
-			.status(500)
-			.json({ error: true, message: "Internal server error" });
-	}
-});
-
-/**
- *
- * @param {Object} req - Express request object.
- * @param {Object} res - Express response object.
- * @returns {Object} Response containing the output.
- * @throws {Object} Error object if an error occurs during the process.
- */
-
-exports.dashBoard = asyncHandler(async (req, res) => {
-	try {
-		const { status, message, error, data } = await Admin.dashBoard();
 
 		if (error) {
 			return res.status(status).json({ error: true, message });

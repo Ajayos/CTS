@@ -23,7 +23,19 @@ const { protectUser } = require("../middleware/authMiddleware");
 // Route: POST /api/v1/users
 router.post("/", User.login);
 
-// Route: POST /api/v1/users/admin
-router.post("/admin", User.createAccount);
+// Route: POST /api/v1/users/new
+router.post("/new", User.createAccount);
+
+// Route: PUT /api/v1/users/password
+router.put("/password", protectUser, User.updatePassword);
+
+// Route: PUT /api/v1/users/forgot
+router.put("/forgot", User.forgotPassword);
+
+// Route: PUT /api/v1/users/:id/user
+router.put("/user", protectUser, User.editAccount);
+
+// Route: PUT /api/v1/users/pic
+router.put("/pic", protectUser, User.editAccountPic);
 
 module.exports = router;
