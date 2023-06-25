@@ -431,11 +431,12 @@ exports.editAccess = async (data) => {
 		}
 		var blocked = "blocked";
 		var inactive = "inactive";
+    var access_  = access ? blocked : inactive;
 
 		// Update the user access with the provided data
 		if (access != user.access) {
 			user.access = access;
-			user.status = access ? blocked : inactive;
+			user.status = access_
 			await user.save();
 		}
 
