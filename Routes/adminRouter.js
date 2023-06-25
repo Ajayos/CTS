@@ -26,22 +26,4 @@ router.post("/", Admin.login);
 // Route: POST /api/v1/admins/admin
 router.post("/admin", Admin.createAccount);
 
-// Router: GET /api/v1/admins/user
-// router.get("/user", protectAdmin, Admin.getAllUsers);
-
-// Router: GET /api/v1/admins/user/:id
-// router.get("/user/:id", protectAdmin, Admin.getUser);
-
-// Router: PUT /api/v1/admins/user/:id
-// router.put("/user/:id", protectAdmin, Admin.updateUser);
-
-// Router: PUT /api/v1/admins/user/:id/pic
-// router.put("/user/:id/pic", protectAdmin, Admin.updateUserPic);
-
-// Router: POST /api/v1/admins/user/:id/block
-// router.post("/user/:id/block", protectAdmin, Admin.blockUser);
-
-// Router: PUT /api/v1/admins/user/:id/block
-// router.put("/user/:id/block", protectAdmin, Admin.unBlockUser);
-
 module.exports = router;
