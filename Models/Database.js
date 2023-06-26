@@ -32,11 +32,11 @@ const connectDB = async () => {
     process.exit(1);
   }
   // change the <PASSWORD> to real password
-  url.replace("<PASSWORD>", process.env.MONGO_PASSWORD);
+  const mongo_url = url.replace("<password>", process.env.MONGO_PASSWORD);
 
   try {
     // Use Mongoose to connect to the database with the provided URL
-    const conn = await mongoose.connect(url, {
+    const conn = await mongoose.connect(mongo_url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
