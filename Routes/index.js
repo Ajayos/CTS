@@ -22,13 +22,13 @@ const router = express.Router();
 // Import individual router modules
 const adminRouter = require("./adminRouter");
 const userRouter = require("./userRouter");
-const socketRouter = require("./socketRouter");
+//const socketRouter = require("./socketRouter");
 
 
 // Set up routes
 router.use("/api/v1/admins", adminRouter);
 router.use("/api/v1/users", userRouter);
-router.use("/socket.io", socketRouter);
+//router.use("/socket.io", socketRouter);
 
 // Export router
 module.exports = router;

@@ -18,24 +18,25 @@
 const express = require("express");
 const router = express.Router();
 const Admin = require("../controllers/adminController");
+const User = require("../controllers/userController");
 const { protectAdmin } = require("../middleware/authMiddleware");
 
-// Route: POST /api/v1/admins
-router.post("/", Admin.login);
-
-// Route: POST /api/v1/admins/new
-router.post("/new", Admin.createAccount);
-
-// Route: PUT /api/v1/admins/user/edit
-router.put("/user/edit", protectAdmin, User.editAccount);
-
-// Route: PUT /api/v1/admins/user/pic
-router.put("/user/pic", protectAdmin, User.editAccountPic);
-
-// Route: PUT /api/v1/admins/user/access
-router.put("/user/access", protectAdmin, User.updateUserAccess);
-
-// Route: PUT /api/v1/admins/user
-router.delete("/user", protectAdmin, User.deleteAccount);
+//// Route: POST /api/v1/admins
+//router.post("/", Admin.login);
+//
+//// Route: POST /api/v1/admins/new
+//router.post("/new", Admin.createAccount);
+//
+//// Route: PUT /api/v1/admins/user/edit
+//router.put("/user/edit", protectAdmin, User.editAccount);
+//
+//// Route: PUT /api/v1/admins/user/pic
+//router.put("/user/pic", protectAdmin, User.editAccountPic);
+//
+//// Route: PUT /api/v1/admins/user/access
+//router.put("/user/access", protectAdmin, User.updateUserAccess);
+//
+//// Route: PUT /api/v1/admins/user
+//router.delete("/user", protectAdmin, User.deleteAccount);
 
 module.exports = router;

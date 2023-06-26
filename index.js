@@ -31,7 +31,7 @@ const RateLimit = require('express-rate-limit');
 
 // Import local modules
 const setupLogger = require("./lib/Logger");
-const apiRouter = require("./Routers");
+const apiRouter = require("./Routes");
 const { connectDB } = require("./Models");
 const { errorHandler } = require("./middleware/");
 
