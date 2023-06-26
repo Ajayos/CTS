@@ -72,7 +72,7 @@ var limiter = RateLimit({
 });
 
 // apply rate limiter to all requests
-app.use(limiter);
+//app.use(limiter);
 
 // setup api
 // v1 api
