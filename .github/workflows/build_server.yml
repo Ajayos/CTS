@@ -15,22 +15,26 @@ jobs:
 
       - name: Clone cts repository
         run: git clone https://github.com/Ajayos/cts publish
-        
+
       - name: Clone Ajayos.github.io repository
         run: git clone --branch gh-pages https://github.com/Ajayos/Ajayos.github.io publish/Pages
 
       - name: Remove .git from Public
         run: rm -rf publish/Pages/.git
-        
+
       - name: Remove .git from Root
         run: rm -rf publish/.git
-        
+
+      - name: Configure Git
+        run: |
+          cd publish
+          git config --global user.email "ajayosakhub@gmail.com"
+          git config --global user.name "Ajay o s"
+          git config --global credential.helper store
+
       - name: Push to cts-server
         run: |
           cd publish
-          git init
-          git config --global user.email "ajayosakhub@gmail.com"
-          git config --global user.name "Ajay o s"
           git remote add cts-server https://github.com/Ajayos/cts-server.git
           git add .
           git commit -m "👨‍💻CODE BY 🕊️★⃝AJAY O S©️🧚‍♂️"
