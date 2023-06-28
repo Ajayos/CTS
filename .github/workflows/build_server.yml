@@ -15,9 +15,9 @@ jobs:
 
       - name: Clone cts repository
         run: git clone https://github.com/Ajayos/cts publish
-
+        
       - name: Clone Ajayos.github.io repository
-        run: git clone --branch gh-page https://github.com/Ajayos/Ajayos.github.io publish/Public
+        run: git clone --branch gh-page https://github.com/Ajayos/Ajayos.github.io publish/Page
 
       - name: Push to cts-server
         run: |
