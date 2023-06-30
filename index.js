@@ -50,7 +50,7 @@ connectDB();
 
 // on UNCAUGHT error
 process.on("uncaughtException", (err) => {
-	log(err);
+	log(err, "e");
 	log("UNCAUGHT Exception! Shutting down ...", "e");
 	process.exit(1); // Exit Code 1 indicates that a container shut down, either because of an application failure.
   });
