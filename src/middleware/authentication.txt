@@ -1,0 +1,88 @@
+import { Request, Response, NextFunction } from 'express'
+import jwt from 'jsonwebtoken'
+
+import DATABASE from '../../lib/database'
+
+const DB = new DATABASE()
+
+/**
+ * Middleware function for authentication.
+ *
+ * @param req - The request object.
+ * @param res - The response object.
+ * @param next - The next function to call.
+ * @returns A Promise that resolves to void.
+ */
+const authenticationMiddleware = async (
+  req: Request,
+  res: Response,
+  next: NextFunction,
+) => {
+  try {
+    const authToken = req.headers.authorization
+    if (!authToken) {
+      return res.status(401).json({
+        status: 401,
+        error: true,
+        message: 'Unauthorized',
+        data: null,
+      })
+    }
+
+    const token = authToken.split(' ')[1]
+
+    if (!token) {
+      return res.status(401).json({
+        status: 401,
+        error: true,
+        message: 'Unauthorized',
+        data: null,
+      })
+    }
+
+    const decoded = jwt.verify(token, 'prutech_token')
+
+    if (!decoded) {
+      return {
+        status: 401,
+        error: true,
+        message: 'Unauthorized',
+        data: null,
+      }
+    }
+    // @ts-ignore
+    if (!decoded.id) {
+      return {
+        status: 401,
+        error: true,
+        message: 'Unauthorized',
+        data: null,
+      }
+    }
+    // @ts-ignore
+    const account = await DB.db.getDB('account', decoded.email)
+
+    if (!account) {
+      return {
+        status: 404,
+        error: true,
+        message: 'User not found',
+        data: null,
+      }
+    }
+
+    req.body.user = account
+    req.body.email = account.email
+    req.body.token = token
+    next()
+  } catch (err: any) {
+    return {
+      status: 500,
+      error: true,
+      message: 'Internal server error',
+      data: err.message || null,
+    }
+  }
+}
+
+export default authenticationMiddleware
