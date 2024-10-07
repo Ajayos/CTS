@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for this project
 title: ''
 labels: ''
-assignees: Ajayos, Keerthana-Ammu, sabiyaabraham
+assignees: Ajayos, Keerthana-Ammu,
 
 ---
 
