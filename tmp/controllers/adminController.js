@@ -15,9 +15,9 @@
  * All rights reserved. (C) 2023 Ajayos
  */
 
-const asyncHandler = require("express-async-handler");
-const Admin = require("../Services/Admin");
-const User = require("../Services/User");
+const asyncHandler = require('express-async-handler');
+const Admin = require('../Services/Admin');
+const User = require('../Services/User');
 
 /**
  *
@@ -39,7 +39,7 @@ exports.login = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -53,7 +53,7 @@ exports.login = asyncHandler(async (req, res) => {
 exports.createAccount = asyncHandler(async (req, res) => {
 	try {
 		const { status, message, error, data } = await Admin.createAccount(
-			req.body
+			req.body,
 		);
 
 		if (error) {
@@ -64,7 +64,7 @@ exports.createAccount = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -93,7 +93,7 @@ exports.editAccount = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -108,7 +108,7 @@ exports.editAccount = asyncHandler(async (req, res) => {
 exports.editAccountPic = asyncHandler(async (req, res) => {
 	try {
 		const { status, message, error, data } = await User.editAccountPic({
-			id : req.body.id,
+			id: req.body.id,
 			pic: req.body.pic,
 		});
 
@@ -120,7 +120,7 @@ exports.editAccountPic = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -147,7 +147,7 @@ exports.updateUserAccess = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -173,7 +173,7 @@ exports.deleteAccount = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -197,6 +197,6 @@ exports.dashBoard = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });

@@ -16,11 +16,11 @@
  */
 
 // Import dependencies
-const { Admin, User } = require("../Models");
-const bcrypt = require("bcryptjs");
-const { encode } = require("../lib/JWT");
-const { v4: uuidv4 } = require("uuid");
-const { ObjectId } = require("mongodb");
+const { Admin, User } = require('../Models');
+const bcrypt = require('bcryptjs');
+const { encode } = require('../lib/JWT');
+const { v4: uuidv4 } = require('uuid');
+const { ObjectId } = require('mongodb');
 
 /**
  * User login function.
@@ -31,7 +31,7 @@ const { ObjectId } = require("mongodb");
  * @param {String} data.device - device of the user.
  * @returns {Object} Response indicating the status, error, message, and data of the login process.
  */
-exports.login = async (data) => {
+exports.login = async data => {
 	try {
 		// Destructure the data object to get the required properties
 		const { email, password, device } = data;
@@ -43,7 +43,7 @@ exports.login = async (data) => {
 		if (!user) {
 			return {
 				status: 404,
-				message: "User not found",
+				message: 'User not found',
 				error: true,
 				data: undefined,
 			};
@@ -57,7 +57,7 @@ exports.login = async (data) => {
 			return {
 				status: 401,
 				error: true,
-				message: "Invalid credentials",
+				message: 'Invalid credentials',
 				data: undefined,
 			};
 		}
@@ -67,7 +67,7 @@ exports.login = async (data) => {
 			return {
 				status: 403,
 				error: true,
-				message: "Access Denied",
+				message: 'Access Denied',
 				data: undefined,
 			};
 		}
@@ -77,7 +77,7 @@ exports.login = async (data) => {
 			return {
 				status: 204,
 				error: true,
-				message: "Account Deleted!",
+				message: 'Account Deleted!',
 				data: undefined,
 			};
 		}
@@ -88,7 +88,7 @@ exports.login = async (data) => {
 			return {
 				status: 500,
 				error: true,
-				message: "Internal server error",
+				message: 'Internal server error',
 				data: undefined,
 			};
 
@@ -99,7 +99,7 @@ exports.login = async (data) => {
 			lastLogin: Date.now(),
 			created: Date.now(),
 			device: device,
-			status: "active",
+			status: 'active',
 		});
 		await user.save();
 
@@ -113,7 +113,7 @@ exports.login = async (data) => {
 		return {
 			status: 500,
 			error: true,
-			message: "Internal server error",
+			message: 'Internal server error',
 			data: undefined,
 		};
 	}
@@ -136,7 +136,7 @@ exports.login = async (data) => {
  * @param {string} data.device - device data of the user.
  * @returns {Object} Response indicating the status, error, message, and data of the account creation process.
  */
-exports.createAccount = async (data) => {
+exports.createAccount = async data => {
 	try {
 		// Destructure the data object to get the required properties
 		const { email, password, pic, name, dob, age, phoneNo, place, device } =
@@ -148,7 +148,7 @@ exports.createAccount = async (data) => {
 			return {
 				status: 409,
 				error: true,
-				message: "User already exists",
+				message: 'User already exists',
 				data: undefined,
 			};
 		}
@@ -168,7 +168,7 @@ exports.createAccount = async (data) => {
 			place,
 			access: true,
 			created: Date.now(),
-			status: "active",
+			status: 'active',
 		});
 
 		await newUser.save();
@@ -180,7 +180,7 @@ exports.createAccount = async (data) => {
 			return {
 				status: 500,
 				error: true,
-				message: "Internal server error",
+				message: 'Internal server error',
 				data: undefined,
 			};
 
@@ -191,7 +191,7 @@ exports.createAccount = async (data) => {
 			lastLogin: Date.now(),
 			created: Date.now(),
 			device: device,
-			status: "active",
+			status: 'active',
 		});
 		await user.save();
 
@@ -208,7 +208,7 @@ exports.createAccount = async (data) => {
 		return {
 			status: 500,
 			error: true,
-			message: "Internal server error",
+			message: 'Internal server error',
 			data: undefined,
 		};
 	}
@@ -222,7 +222,7 @@ exports.createAccount = async (data) => {
  * @param {string} data.password - New password for the user.
  * @returns {Object} Response indicating the status, error, message, and data of the password update process.
  */
-exports.updatePassword = async (data) => {
+exports.updatePassword = async data => {
 	try {
 		const { id, password, device } = data;
 
@@ -233,7 +233,7 @@ exports.updatePassword = async (data) => {
 			return {
 				status: 404,
 				error: true,
-				message: "User not found",
+				message: 'User not found',
 				data: undefined,
 			};
 		}
@@ -250,7 +250,7 @@ exports.updatePassword = async (data) => {
 			return {
 				status: 500,
 				error: true,
-				message: "Internal server error",
+				message: 'Internal server error',
 				data: undefined,
 			};
 
@@ -261,21 +261,21 @@ exports.updatePassword = async (data) => {
 			lastLogin: Date.now(),
 			created: Date.now(),
 			device: device,
-			status: "active",
+			status: 'active',
 		});
 		await user_.save();
 
 		return {
 			status: 200,
 			error: false,
-			message: "Password updated successfully",
+			message: 'Password updated successfully',
 			data: { token, user },
 		};
 	} catch (error) {
 		return {
 			status: 500,
 			error: true,
-			message: "Internal server error",
+			message: 'Internal server error',
 			data: undefined,
 		};
 	}
@@ -290,7 +290,7 @@ exports.updatePassword = async (data) => {
  * @param {string} data.password - New password for the user.
  * @returns {Object} Response indicating the status, error, message, and data of the password update process.
  */
-exports.forgotPassword = async (data) => {
+exports.forgotPassword = async data => {
 	try {
 		const { email, dob, password } = data;
 
@@ -301,7 +301,7 @@ exports.forgotPassword = async (data) => {
 			return {
 				status: 404,
 				error: true,
-				message: "User not found",
+				message: 'User not found',
 				data: undefined,
 			};
 		}
@@ -320,7 +320,7 @@ exports.forgotPassword = async (data) => {
 			return {
 				status: 403,
 				error: true,
-				message: "Access Denied",
+				message: 'Access Denied',
 				data: undefined,
 			};
 		}
@@ -330,7 +330,7 @@ exports.forgotPassword = async (data) => {
 			return {
 				status: 204,
 				error: true,
-				message: "Account Deleted!",
+				message: 'Account Deleted!',
 				data: undefined,
 			};
 		}
@@ -344,14 +344,14 @@ exports.forgotPassword = async (data) => {
 		return {
 			status: 200,
 			error: false,
-			message: "Password updated successfully",
-			data: { message: "Password updated successfully" },
+			message: 'Password updated successfully',
+			data: { message: 'Password updated successfully' },
 		};
 	} catch (error) {
 		return {
 			status: 500,
 			error: true,
-			message: "Internal server error",
+			message: 'Internal server error',
 			data: undefined,
 		};
 	}
@@ -368,7 +368,7 @@ exports.forgotPassword = async (data) => {
  * @param {string} data.place - Updated place of the user.
  * @returns {Object} Response indicating the status, error, message, and data of the process.
  */
-exports.editAccount = async (data) => {
+exports.editAccount = async data => {
 	try {
 		const { id, name, dob, age, place } = data;
 
@@ -379,7 +379,7 @@ exports.editAccount = async (data) => {
 			return {
 				status: 404,
 				error: true,
-				message: "User not found",
+				message: 'User not found',
 				data: undefined,
 			};
 		}
@@ -394,14 +394,14 @@ exports.editAccount = async (data) => {
 		return {
 			status: 200,
 			error: false,
-			message: "User account updated successfully",
-			data: { message: "User account updated successfully" },
+			message: 'User account updated successfully',
+			data: { message: 'User account updated successfully' },
 		};
 	} catch (error) {
 		return {
 			status: 500,
 			error: true,
-			message: "Internal server error",
+			message: 'Internal server error',
 			data: undefined,
 		};
 	}
@@ -415,7 +415,7 @@ exports.editAccount = async (data) => {
  * @param {boolean} data.access - Updated access status of the user.
  * @returns {Object} Response indicating the status, error, message, and data of the user access update process.
  */
-exports.editAccess = async (data) => {
+exports.editAccess = async data => {
 	try {
 		const { id, access } = data;
 
@@ -425,32 +425,32 @@ exports.editAccess = async (data) => {
 			return {
 				status: 404,
 				error: true,
-				message: "User not found",
+				message: 'User not found',
 				data: undefined,
 			};
 		}
-		var blocked = "blocked";
-		var inactive = "inactive";
-    var access_  = access ? blocked : inactive;
+		var blocked = 'blocked';
+		var inactive = 'inactive';
+		var access_ = access ? blocked : inactive;
 
 		// Update the user access with the provided data
 		if (access != user.access) {
 			user.access = access;
-			user.status = access_
+			user.status = access_;
 			await user.save();
 		}
 
 		return {
 			status: 200,
 			error: false,
-			message: "User access updated successfully",
-			data: { message: "User account updated successfully" },
+			message: 'User access updated successfully',
+			data: { message: 'User account updated successfully' },
 		};
 	} catch (error) {
 		return {
 			status: 500,
 			error: true,
-			message: "Internal server error",
+			message: 'Internal server error',
 			data: undefined,
 		};
 	}
@@ -463,7 +463,7 @@ exports.editAccess = async (data) => {
  * @param {string} data.id - ID of the user.
  * @returns {Object} Response indicating the status, error, message, and data of the process.
  */
-exports.deleteAccount = async (data) => {
+exports.deleteAccount = async data => {
 	try {
 		// Destructure the data object to get the required properties
 		const { id } = data;
@@ -475,7 +475,7 @@ exports.deleteAccount = async (data) => {
 		if (!user) {
 			return {
 				status: 404,
-				message: "User not found",
+				message: 'User not found',
 				error: true,
 				data: undefined,
 			};
@@ -484,25 +484,25 @@ exports.deleteAccount = async (data) => {
 		if (user.delete) {
 			user.delete = false;
 			user.access = true;
-			user.status = "inactive";
+			user.status = 'inactive';
 		} else {
 			user.delete = true;
 			user.access = false;
-			user.status = "deleted";
+			user.status = 'deleted';
 			await user.save();
 		}
 
 		return {
 			status: 200,
 			error: false,
-			message: "User account deleted successfully",
-			data: { message: "User account deleted successfully" },
+			message: 'User account deleted successfully',
+			data: { message: 'User account deleted successfully' },
 		};
 	} catch (error) {
 		return {
 			status: 500,
 			error: true,
-			message: "Internal server error",
+			message: 'Internal server error',
 			data: undefined,
 		};
 	}
@@ -516,7 +516,7 @@ exports.deleteAccount = async (data) => {
  * @param {string} data.pic - Updated profile pic of the user.
  * @returns {Object} Response indicating the status, error, message, and data of the process.
  */
-exports.editAccountPic = async (data) => {
+exports.editAccountPic = async data => {
 	try {
 		const { id, pic } = data;
 
@@ -527,7 +527,7 @@ exports.editAccountPic = async (data) => {
 			return {
 				status: 404,
 				error: true,
-				message: "User not found",
+				message: 'User not found',
 				data: undefined,
 			};
 		}
@@ -538,14 +538,14 @@ exports.editAccountPic = async (data) => {
 		return {
 			status: 200,
 			error: false,
-			message: "User account updated successfully",
-			data: { message: "User account updated successfully" },
+			message: 'User account updated successfully',
+			data: { message: 'User account updated successfully' },
 		};
 	} catch (error) {
 		return {
 			status: 500,
 			error: true,
-			message: "Internal server error",
+			message: 'Internal server error',
 			data: undefined,
 		};
 	}

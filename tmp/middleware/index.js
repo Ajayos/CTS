@@ -15,12 +15,12 @@
  * All rights reserved. (C) 2023 Ajayos
  */
 
-// 
-const filename = "index.js";
-const errorHandler = require("./errorHandler");
-const authMiddleware = require("./authMiddleware");
+//
+const filename = 'index.js';
+const errorHandler = require('./errorHandler');
+const authMiddleware = require('./authMiddleware');
 
 module.exports = {
-  errorHandler,
-  authMiddleware,
+	errorHandler,
+	authMiddleware,
 };

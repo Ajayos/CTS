@@ -18,8 +18,7 @@
 const User = [];
 const OnlineUser = [];
 
-
 module.exports = {
-    User,
-    OnlineUser
-}
+	User,
+	OnlineUser,
+};

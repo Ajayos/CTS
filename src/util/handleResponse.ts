@@ -1,4 +1,4 @@
-import { log, saveLog } from '../lib/Logger';
+import { saveLog } from '../lib/Logger';
 import { Response } from 'express';
 
 /**

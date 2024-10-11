@@ -1,5 +1,5 @@
 /**
- * 
+ *
  * @project : CTS
  * @version : 12.5.3
  * @link : https://github.com/Ajayos/CTS
@@ -16,24 +16,24 @@
  */
 
 // Import the nodelogger package
-const logger = require("@ajayos/nodelogger");
+const logger = require('@ajayos/nodelogger');
 
 /**
  * Function to setup the logger
  */
 async function setupLogger() {
-  // Start the logger with the specified configurations
-  await logger.start({
-    timeZone: 'Asia/Kolkata',
-    hour: 'numeric',
-    minute: 'numeric',
-    hour12: true,
-    filename: 'logs/%DATE%.log',
-    datePattern: 'YYYY-MM/DD',
-    zippedArchive: false,
-    maxSize: '1g',
-    level: 'info'
-  });
+	// Start the logger with the specified configurations
+	await logger.start({
+		timeZone: 'Asia/Kolkata',
+		hour: 'numeric',
+		minute: 'numeric',
+		hour12: true,
+		filename: 'logs/%DATE%.log',
+		datePattern: 'YYYY-MM/DD',
+		zippedArchive: false,
+		maxSize: '1g',
+		level: 'info',
+	});
 }
 
 // Export the setupLogger function

@@ -1,13 +1,3 @@
-/**
- * @module src/lib/Scheduler
- * @create_date 30-07-2024
- * @last_update 13-08-2024
- * @created_by Ajay o s
- * @last_updated_by Ajay o s
- * @version 1.1.0
- * @description Scheduler module with task ID and removeTask functionality
- */
-
 import { log, saveLog } from './Logger';
 import fs from 'fs';
 

@@ -15,11 +15,11 @@
  * All rights reserved. (C) 2023 Ajayos
  */
 
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const Admin = require("../controllers/adminController");
-const User = require("../controllers/userController");
-const { protectAdmin } = require("../middleware/authMiddleware");
+const Admin = require('../controllers/adminController');
+const User = require('../controllers/userController');
+const { protectAdmin } = require('../middleware/authMiddleware');
 
 //// Route: POST /api/v1/admins
 //router.post("/", Admin.login);

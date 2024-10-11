@@ -1,13 +1,3 @@
-/**
- * @module src/lib/Logger
- * @create_date 22-07-2024
- * @last_update 13-08-2024
- * @created_by Ajay o s
- * @last_updated_by Ajay o s
- * @version 1.0.0
- * @description Provides logging functionality.
- */
-
 import DailyRotateFile from 'winston-daily-rotate-file';
 import { format, createLogger } from 'winston';
 import fs from 'fs';

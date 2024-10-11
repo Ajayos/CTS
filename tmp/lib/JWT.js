@@ -16,27 +16,27 @@
  * All rights reserved. (C) 2023 Ajayos
  */
 
-const jwt = require("jsonwebtoken");
+const jwt = require('jsonwebtoken');
 
 /**
  * Encodes data into a JWT token.
  * @param {Object} data - The data to be encoded.
  * @returns {string|boolean} - The encoded JWT token or false if encoding fails.
  */
-const encode = (data) => {
-  if (!(data._id || data.id) && !data.email && !data.password) return false;
+const encode = data => {
+	if (!(data._id || data.id) && !data.email && !data.password) return false;
 
-  const payload = {
-    id: data._id || data.id,
-    email: data.email,
-    password: data.password,
-  };
+	const payload = {
+		id: data._id || data.id,
+		email: data.email,
+		password: data.password,
+	};
 
-  const token = jwt.sign(payload, process.env.JWT_SECRET, {
-    expiresIn: "1w", // 1 week expiration
-  });
+	const token = jwt.sign(payload, process.env.JWT_SECRET, {
+		expiresIn: '1w', // 1 week expiration
+	});
 
-  return token;
+	return token;
 };
 
 /**
@@ -44,15 +44,25 @@ const encode = (data) => {
  * @param {string} token - The JWT token to be decoded.
  * @returns {Object} - The decoded data or error.
  */
-const decode = (token) => {
-  if (!token) return false;
+const decode = token => {
+	if (!token) return false;
 
-  try {
-    const data = jwt.verify(token, process.env.JWT_SECRET);
-    return res.json({ valid: true, message: "valid", error: false, data: data });
-  } catch (error) {
-    return res.json({ vaild: false, message: "error", error: true, data: error });
-  }
+	try {
+		const data = jwt.verify(token, process.env.JWT_SECRET);
+		return res.json({
+			valid: true,
+			message: 'valid',
+			error: false,
+			data: data,
+		});
+	} catch (error) {
+		return res.json({
+			vaild: false,
+			message: 'error',
+			error: true,
+			data: error,
+		});
+	}
 };
 
 /**
@@ -60,19 +70,19 @@ const decode = (token) => {
  * @param {string} token - The JWT token to be validated.
  * @returns {boolean} - True if the token is valid and not expired, false otherwise.
  */
-const isValid = (token) => {
-  if (!token) return false;
+const isValid = token => {
+	if (!token) return false;
 
-  try {
-    jwt.verify(token, process.env.JWT_SECRET);
-    return true;
-  } catch (error) {
-    return false;
-  }
+	try {
+		jwt.verify(token, process.env.JWT_SECRET);
+		return true;
+	} catch (error) {
+		return false;
+	}
 };
 
 module.exports = {
-  encode,
-  decode,
-  isValid,
+	encode,
+	decode,
+	isValid,
 };

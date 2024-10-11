@@ -4,19 +4,19 @@ CTS (Cloud Tools Server) is a powerful and scalable server program developed usi
 
 ---
 
-``@project : CTS``
+`@project : CTS`
 
-``@version : 12.5.3``
+`@version : 12.5.3`
 
-``@link : https://github.com/Ajayos/CTS ``
+`@link : https://github.com/Ajayos/CTS `
 
-``@author : Ajay o s ``
+`@author : Ajay o s `
 
-``@editor : Ajayos ``
+`@editor : Ajayos `
 
-``GitHub Repository: https://github.com/Ajayos/CTS ``
+`GitHub Repository: https://github.com/Ajayos/CTS `
 
-``All rights reserved. (C) 2023 Ajayos``
+`All rights reserved. (C) 2023 Ajayos`
 
 ---
 
@@ -26,6 +26,7 @@ CTS (Cloud Tools Server) is a powerful and scalable server program developed usi
 <img src="https://img.shields.io/github/repo-size/Ajayos/CTS?color=green&label=Repo%20total%20size&style=plastic">
 [![.github/workflows/contribution.yml](https://github.com/Ajayos/CTS/actions/workflows/contribution.yml/badge.svg)](https://github.com/Ajayos/CTS/actions/workflows/contribution.yml)
 [![Greetings](https://github.com/Ajayos/CTS/actions/workflows/greetings.yml/badge.svg)](https://github.com/Ajayos/CTS/actions/workflows/greetings.yml)
+
 ---
 
 ## Table of Contents
@@ -43,40 +44,41 @@ CTS (Cloud Tools Server) is a powerful and scalable server program developed usi
 
 CTS (Cloud Tools Server).
 
-``Loading...``
+`Loading...`
 
 ---
 
 ## Features
-``Loading...``
+
+`Loading...`
 
 ---
 
 ## Dir
 
-  - controllers
-    - index.js
-  - middleware
-    - index.js
-    - authMiddleware.js
-    - errorHandler.js
-  - Models
-    - index.js
-    - userModel.js
-    - adminModel.js
-    - Database.js
-  - Routes
-    - index.js
-  - Services
-    - index.js
-    - authService.js
-  - lib
-    - Home 
-       - IP.js
-    - index.js
-    - JWT.js
-    - Logger.js
+- controllers
   - index.js
+- middleware
+  - index.js
+  - authMiddleware.js
+  - errorHandler.js
+- Models
+  - index.js
+  - userModel.js
+  - adminModel.js
+  - Database.js
+- Routes
+  - index.js
+- Services
+  - index.js
+  - authService.js
+- lib
+  - Home
+    - IP.js
+  - index.js
+  - JWT.js
+  - Logger.js
+- index.js
 
 ---
 

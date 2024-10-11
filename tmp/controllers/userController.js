@@ -15,8 +15,8 @@
  * All rights reserved. (C) 2023 Ajayos
  */
 
-const asyncHandler = require("express-async-handler");
-const User = require("../Services/User");
+const asyncHandler = require('express-async-handler');
+const User = require('../Services/User');
 
 /**
  *
@@ -38,7 +38,7 @@ exports.login = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -61,7 +61,7 @@ exports.createAccount = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -88,7 +88,7 @@ exports.updatePassword = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -115,7 +115,7 @@ exports.forgotPassword = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -144,7 +144,7 @@ exports.editAccount = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });
 
@@ -170,6 +170,6 @@ exports.editAccountPic = asyncHandler(async (req, res) => {
 	} catch (error) {
 		return res
 			.status(500)
-			.json({ error: true, message: "Internal server error" });
+			.json({ error: true, message: 'Internal server error' });
 	}
 });

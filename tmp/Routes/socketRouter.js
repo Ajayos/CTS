@@ -23,7 +23,6 @@ const router = express.Router();
 const rootSocket = require('./rootSocketRouter');
 const onlineChatSocket = require('./online-chat');
 
-
 // Define Socket.IO route paths
 router.use('/', rootSocket);
 router.use('/online/chat', onlineChatSocket);
